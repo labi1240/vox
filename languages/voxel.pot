@@ -1,0 +1,4160 @@
+# Copyright (C) 2023 Voxel
+# This file is distributed under the same license as the Voxel package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Voxel\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-11-14 19:46+0000\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/checkout-session.php:39
+msgctxt "checkout"
+msgid "This item has not been published."
+msgstr ""
+
+#: app/checkout-session.php:44
+msgctxt "checkout"
+msgid "This item cannot be purchased."
+msgstr ""
+
+#: app/checkout-session.php:49
+msgctxt "checkout"
+msgid "Product field has not been configured."
+msgstr ""
+
+#: app/checkout-session.php:54
+msgctxt "checkout"
+msgid "Product type does not exist."
+msgstr ""
+
+#: app/checkout-session.php:62
+msgctxt "checkout"
+msgid "This post cannot be claimed."
+msgstr ""
+
+#: app/checkout-session.php:67
+msgctxt "checkout"
+msgid "Product is not available."
+msgstr ""
+
+#: app/checkout-session.php:89
+msgctxt "checkout"
+msgid "This seller is not available at the moment."
+msgstr ""
+
+#: app/checkout-session.php:239, app/checkout-session.php:125
+msgctxt "checkout"
+msgid "Please choose check-in and check-out dates."
+msgstr ""
+
+#: app/checkout-session.php:254, app/checkout-session.php:222, app/checkout-session.php:230, app/checkout-session.php:170, app/checkout-session.php:178, app/checkout-session.php:135, app/checkout-session.php:144
+msgctxt "checkout"
+msgid "This date can't be booked."
+msgstr ""
+
+#: app/checkout-session.php:217
+msgctxt "checkout"
+msgid "Please choose check-in date."
+msgstr ""
+
+#: app/checkout-session.php:226, app/checkout-session.php:174, app/checkout-session.php:140
+msgctxt "checkout"
+msgid "This date has already been booked."
+msgstr ""
+
+#: app/checkout-session.php:165
+msgctxt "checkout"
+msgid "Please choose check-in date and timeslot."
+msgstr ""
+
+#: app/checkout-session.php:199
+msgctxt "checkout"
+msgid "This slot can't be booked."
+msgstr ""
+
+#: app/checkout-session.php:205
+msgctxt "checkout"
+msgid "This slot has already been booked."
+msgstr ""
+
+#: app/checkout-session.php:375, app/checkout-session.php:414, app/checkout-session.php:444
+msgctxt "checkout"
+msgid "@addition_name is required"
+msgstr ""
+
+#: app/checkout-session.php:384
+msgctxt "checkout"
+msgid "@addition_name must be between @min_units and @max_units"
+msgstr ""
+
+#: app/notification.php:63
+msgctxt "notification created at"
+msgid "%s ago"
+msgstr ""
+
+#: app/order-note.php:101
+msgctxt "orders"
+msgid "Couldn't create note: missing data."
+msgstr ""
+
+#: app/order-note.php:325
+msgctxt "orders"
+msgid "Checkout canceled by user."
+msgstr ""
+
+#: app/order-note.php:326
+msgctxt "orders"
+msgid "Funds have been authorized and the order is awaiting approval by the vendor."
+msgstr ""
+
+#: app/order-note.php:327
+msgctxt "orders"
+msgid "Order has been approved"
+msgstr ""
+
+#: app/order-note.php:328
+msgctxt "orders"
+msgid "Order has been declined"
+msgstr ""
+
+#: app/order-note.php:329
+msgctxt "orders"
+msgid "Refund request approved by vendor."
+msgstr ""
+
+#: app/order-note.php:330
+msgctxt "orders"
+msgid "Refund request declined by vendor."
+msgstr ""
+
+#: app/order-note.php:331
+msgctxt "orders"
+msgid "Order canceled by customer."
+msgstr ""
+
+#: app/order-note.php:332
+msgctxt "orders"
+msgid "Customer requested a refund."
+msgstr ""
+
+#: app/order-note.php:333
+msgctxt "orders"
+msgid "Customer canceled their refund request."
+msgstr ""
+
+#: app/order-note.php:341
+msgctxt "orders"
+msgid "Vendor applied the tag \"%s\""
+msgstr ""
+
+#: app/order-note.php:342
+msgctxt "orders"
+msgid "Vendor changed the order tag."
+msgstr ""
+
+#: app/order-note.php:348
+msgctxt "orders"
+msgid "Customer applied the tag \"%s\""
+msgstr ""
+
+#: app/order-note.php:349
+msgctxt "orders"
+msgid "Customer changed the order tag."
+msgstr ""
+
+#: app/order-note.php:355
+msgctxt "orders"
+msgid "Order tag set to \"%s\" via QR code."
+msgstr ""
+
+#: app/order-note.php:356
+msgctxt "orders"
+msgid "Order tag changed via QR code."
+msgstr ""
+
+#: app/order-note.php:315, app/order-note.php:300, app/order.php:223
+msgctxt "deleted user account"
+msgid "(deleted account)"
+msgstr ""
+
+#: app/order-note.php:382
+msgctxt "order note created at"
+msgid "%s ago"
+msgstr ""
+
+#: app/order.php:112
+msgctxt "order status"
+msgid "Unknown"
+msgstr ""
+
+#: app/order.php:239
+msgctxt "order created at"
+msgid "%s ago"
+msgstr ""
+
+#: app/order.php:278
+msgctxt "deleted order post"
+msgid "(deleted item)"
+msgstr ""
+
+#: app/order.php:283, app/widgets/orders.php:4075
+msgctxt "order status"
+msgid "Completed"
+msgstr ""
+
+#: app/order.php:284, app/widgets/orders.php:4076
+msgctxt "order status"
+msgid "Pending Approval"
+msgstr ""
+
+#: app/order.php:285, app/widgets/orders.php:4079
+msgctxt "order status"
+msgid "Declined"
+msgstr ""
+
+#: app/order.php:286, app/widgets/orders.php:4077
+msgctxt "order status"
+msgid "Refund Requested"
+msgstr ""
+
+#: app/order.php:287
+msgctxt "order status"
+msgid "Pending Payment"
+msgstr ""
+
+#: app/order.php:288, app/widgets/orders.php:4080, app/widgets/orders.php:4090
+msgctxt "order status"
+msgid "Canceled"
+msgstr ""
+
+#: app/order.php:289, app/widgets/orders.php:4078
+msgctxt "order status"
+msgid "Refunded"
+msgstr ""
+
+#: app/order.php:292
+msgctxt "subscription status"
+msgid "Trialing"
+msgstr ""
+
+#: app/order.php:293
+msgctxt "subscription status"
+msgid "Active"
+msgstr ""
+
+#: app/order.php:294
+msgctxt "subscription status"
+msgid "Incomplete"
+msgstr ""
+
+#: app/order.php:295
+msgctxt "subscription status"
+msgid "Expired"
+msgstr ""
+
+#: app/order.php:296
+msgctxt "subscription status"
+msgid "Past due"
+msgstr ""
+
+#: app/order.php:297
+msgctxt "subscription status"
+msgid "Canceled"
+msgstr ""
+
+#: app/order.php:298
+msgctxt "subscription status"
+msgid "Unpaid"
+msgstr ""
+
+#: app/order.php:534
+msgctxt "addition enabled"
+msgid "Yes"
+msgstr ""
+
+#: app/plan-price.php:23
+msgctxt "pricing plans"
+msgid "Could not find plan."
+msgstr ""
+
+#: app/plan-price.php:28
+msgctxt "pricing plans"
+msgid "Plan does not exist."
+msgstr ""
+
+#: app/plan-price.php:33
+msgctxt "pricing plans"
+msgid "Price does not exist."
+msgstr ""
+
+#: app/controllers/assets-controller.php:269
+msgid "There was a problem. Please try again."
+msgstr ""
+
+#: app/controllers/assets-controller.php:270
+msgid "Are you sure you want to proceed with this action?"
+msgstr ""
+
+#: app/controllers/assets-controller.php:271
+msgid "An account is required to perform this action"
+msgstr ""
+
+#: app/controllers/assets-controller.php:272
+msgid "Log-in"
+msgstr ""
+
+#: app/controllers/assets-controller.php:273
+msgid "Register"
+msgstr ""
+
+#: app/controllers/assets-controller.php:274
+msgid "Copied to clipboard"
+msgstr ""
+
+#: app/controllers/assets-controller.php:275
+msgid "Could not determine your location."
+msgstr ""
+
+#: app/controllers/assets-controller.php:276
+msgid "Could not determine your address."
+msgstr ""
+
+#: app/controllers/assets-controller.php:278
+msgctxt "months"
+msgid "January"
+msgstr ""
+
+#: app/controllers/assets-controller.php:279
+msgctxt "months"
+msgid "February"
+msgstr ""
+
+#: app/controllers/assets-controller.php:280
+msgctxt "months"
+msgid "March"
+msgstr ""
+
+#: app/controllers/assets-controller.php:281
+msgctxt "months"
+msgid "April"
+msgstr ""
+
+#: app/controllers/assets-controller.php:282
+msgctxt "months"
+msgid "May"
+msgstr ""
+
+#: app/controllers/assets-controller.php:283
+msgctxt "months"
+msgid "June"
+msgstr ""
+
+#: app/controllers/assets-controller.php:284
+msgctxt "months"
+msgid "July"
+msgstr ""
+
+#: app/controllers/assets-controller.php:285
+msgctxt "months"
+msgid "August"
+msgstr ""
+
+#: app/controllers/assets-controller.php:286
+msgctxt "months"
+msgid "September"
+msgstr ""
+
+#: app/controllers/assets-controller.php:287
+msgctxt "months"
+msgid "October"
+msgstr ""
+
+#: app/controllers/assets-controller.php:288
+msgctxt "months"
+msgid "November"
+msgstr ""
+
+#: app/controllers/assets-controller.php:289
+msgctxt "months"
+msgid "December"
+msgstr ""
+
+#: app/controllers/assets-controller.php:292, app/utils/utils.php:229
+msgctxt "weekdays"
+msgid "Sunday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:293, app/utils/utils.php:223
+msgctxt "weekdays"
+msgid "Monday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:294, app/utils/utils.php:224
+msgctxt "weekdays"
+msgid "Tuesday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:295, app/utils/utils.php:225
+msgctxt "weekdays"
+msgid "Wednesday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:296, app/utils/utils.php:226
+msgctxt "weekdays"
+msgid "Thursday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:297, app/utils/utils.php:227
+msgctxt "weekdays"
+msgid "Friday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:298, app/utils/utils.php:228
+msgctxt "weekdays"
+msgid "Saturday"
+msgstr ""
+
+#: app/controllers/assets-controller.php:301
+msgctxt "weekdays short"
+msgid "Sun"
+msgstr ""
+
+#: app/controllers/assets-controller.php:302
+msgctxt "weekdays short"
+msgid "Mon"
+msgstr ""
+
+#: app/controllers/assets-controller.php:303
+msgctxt "weekdays short"
+msgid "Tue"
+msgstr ""
+
+#: app/controllers/assets-controller.php:304
+msgctxt "weekdays short"
+msgid "Wed"
+msgstr ""
+
+#: app/controllers/assets-controller.php:305
+msgctxt "weekdays short"
+msgid "Thu"
+msgstr ""
+
+#: app/controllers/assets-controller.php:306
+msgctxt "weekdays short"
+msgid "Fri"
+msgstr ""
+
+#: app/controllers/assets-controller.php:307
+msgctxt "weekdays short"
+msgid "Sat"
+msgstr ""
+
+#: app/controllers/post-controller.php:172
+msgctxt "Post verification status metabox title"
+msgid "Verification Status"
+msgstr ""
+
+#: app/controllers/post-types-controller.php:117
+msgctxt "post statuses"
+msgid "Rejected"
+msgstr ""
+
+#: app/controllers/post-types-controller.php:125
+msgctxt "post statuses"
+msgid "Expired"
+msgstr ""
+
+#: app/controllers/post-types-controller.php:132
+msgctxt "post statuses"
+msgid "Unpublished"
+msgstr ""
+
+#: app/direct-messages/message.php:177
+msgctxt "message sent at"
+msgid "%s at %s"
+msgstr ""
+
+#: app/direct-messages/message.php:175
+msgctxt "message sent at"
+msgid "Yesterday at %s"
+msgstr ""
+
+#: app/direct-messages/message.php:173
+msgctxt "message sent at"
+msgid "Today at %s"
+msgstr ""
+
+#: app/direct-messages/message.php:188
+msgctxt "message sent at"
+msgid "%s ago"
+msgstr ""
+
+#: app/direct-messages/message.php:206
+msgctxt "messages"
+msgid "You sent a file"
+msgstr ""
+
+#: app/direct-messages/message.php:207
+msgctxt "messages"
+msgid "You sent @amount files"
+msgstr ""
+
+#: app/direct-messages/message.php:213
+msgctxt "messages"
+msgid "Sent a file"
+msgstr ""
+
+#: app/direct-messages/message.php:214
+msgctxt "messages"
+msgid "Sent @amount files"
+msgstr ""
+
+#: app/direct-messages/message.php:219
+msgctxt "messages"
+msgid "Sent a message"
+msgstr ""
+
+#: app/direct-messages/message.php:285
+msgctxt "messages"
+msgid "Couldn't insert message: missing data."
+msgstr ""
+
+#: app/dynamic-tags/membership-group.php:68, app/dynamic-tags/user-group.php:462, app/post-types/fields/product-field.php:667
+msgctxt "price interval"
+msgid "one time"
+msgstr ""
+
+#: app/dynamic-tags/relation-request-group.php:23, app/dynamic-tags/relation-request-group.php:34
+msgctxt "deleted item"
+msgid "(deleted)"
+msgstr ""
+
+#: app/object-fields/base-validation-helpers.php:15
+msgctxt "field validation"
+msgid "@field_name is required"
+msgstr ""
+
+#: app/object-fields/base-validation-helpers.php:29
+msgctxt "field validation"
+msgid "@field_name can't be shorter than @length characters"
+msgstr ""
+
+#: app/object-fields/base-validation-helpers.php:44
+msgctxt "field validation"
+msgid "@field_name can't be longer than @length characters"
+msgstr ""
+
+#: app/object-fields/base-validation-helpers.php:55
+msgctxt "field validation"
+msgid "@field_name is not a valid number"
+msgstr ""
+
+#: app/object-fields/base-validation-helpers.php:65
+msgctxt "field validation"
+msgid "@field_name must be a valid email address"
+msgstr ""
+
+#: app/object-fields/file-field-trait.php:66
+msgctxt "field validation"
+msgid "%s cannot have more than %d files."
+msgstr ""
+
+#: app/object-fields/file-field-trait.php:79, app/object-fields/file-field-trait.php:120
+msgctxt "field validation"
+msgid "@field_name: file type not allowed: \"@file_type\""
+msgstr ""
+
+#: app/object-fields/file-field-trait.php:88
+msgctxt "field validation"
+msgid "@field_name: uploaded file \"@file\" is larger than the @sizeMB limit"
+msgstr ""
+
+#: app/object-fields/file-field-trait.php:101
+msgctxt "field validation"
+msgid "@field_name: Invalid attachment provided"
+msgstr ""
+
+#: app/object-fields/file-field-trait.php:110
+msgctxt "field validation"
+msgid "@field_name: Attachment not allowed"
+msgstr ""
+
+#: app/post-types/post-type-reviews.php:42
+msgctxt "review categories"
+msgid "Rating"
+msgstr ""
+
+#: app/post-types/post-type-reviews.php:85
+msgctxt "reviews"
+msgid "Poor"
+msgstr ""
+
+#: app/post-types/post-type-reviews.php:91
+msgctxt "reviews"
+msgid "Fair"
+msgstr ""
+
+#: app/post-types/post-type-reviews.php:97
+msgctxt "reviews"
+msgid "Good"
+msgstr ""
+
+#: app/post-types/post-type-reviews.php:103
+msgctxt "reviews"
+msgid "Very good"
+msgstr ""
+
+#: app/post-types/post-type-reviews.php:109
+msgctxt "reviews"
+msgid "Excellent"
+msgstr ""
+
+#: app/product-types/vendor-stats.php:211
+msgctxt "sales chart"
+msgid "All time stats"
+msgstr ""
+
+#: app/timeline/reply.php:112, app/timeline/status.php:117
+msgctxt "status published at"
+msgid "%s ago"
+msgstr ""
+
+#: app/timeline/reply.php:253
+msgctxt "timeline"
+msgid "Couldn't create reply: missing information."
+msgstr ""
+
+#: app/users/customer-trait.php:31
+msgctxt "orders"
+msgid "Stripe customer account not set up for this user."
+msgstr ""
+
+#: app/users/security-trait.php:13
+msgctxt "auth"
+msgid "Account recovery"
+msgstr ""
+
+#: app/users/security-trait.php:14
+msgctxt "auth"
+msgid "Your recovery code is %s"
+msgstr ""
+
+#: app/users/security-trait.php:30, app/users/security-trait.php:62, app/controllers/async/purge-stats-cache-action.php:22, app/controllers/frontend/inbox-controller.php:287, app/controllers/frontend/inbox-controller.php:563, app/controllers/frontend/inbox-controller.php:622, app/controllers/frontend/inbox-controller.php:671, app/controllers/frontend/inbox-controller.php:675, app/controllers/frontend/tabs-controller.php:26, app/controllers/frontend/tabs-controller.php:32, app/controllers/frontend/tabs-controller.php:40, app/controllers/frontend/tabs-controller.php:107, app/controllers/frontend/tabs-controller.php:121, app/controllers/frontend/user-controller.php:96, app/controllers/frontend/user-controller.php:250, app/controllers/onboarding/onboarding-controller.php:127, app/controllers/frontend/membership/checkout-controller.php:45, app/controllers/frontend/membership/checkout-controller.php:49, app/controllers/frontend/membership/checkout-controller.php:54, app/controllers/frontend/membership/checkout-controller.php:58, app/controllers/frontend/membership/modify-plan-controller.php:432, app/controllers/frontend/membership/modify-plan-controller.php:436, app/controllers/frontend/membership/modify-plan-controller.php:441, app/controllers/frontend/membership/modify-plan-controller.php:445, app/controllers/frontend/orders/orders-controller.php:506, app/controllers/frontend/orders/reservations-controller.php:117, app/controllers/frontend/statistics/visits-chart-controller.php:64, app/controllers/frontend/statistics/visits-chart-controller.php:25, app/controllers/frontend/statistics/visits-chart-controller.php:30, app/controllers/frontend/statistics/visits-chart-controller.php:128, app/controllers/frontend/statistics/visits-chart-controller.php:148, app/controllers/frontend/statistics/visits-chart-controller.php:174
+msgid "Invalid request."
+msgstr ""
+
+#: app/users/security-trait.php:34
+msgctxt "auth"
+msgid "Recovery session has expired."
+msgstr ""
+
+#: app/users/security-trait.php:38, app/users/security-trait.php:70
+msgctxt "auth"
+msgid "Code is not correct."
+msgstr ""
+
+#: app/users/security-trait.php:44, templates/widgets/login/security/security-screen.php:15, templates/widgets/login/security/update-email-screen.php:55
+msgctxt "auth"
+msgid "Update email address"
+msgstr ""
+
+#: app/users/security-trait.php:45, app/utils/auth-utils.php:115
+msgctxt "auth"
+msgid "Your confirmation code is %s"
+msgstr ""
+
+#: app/users/security-trait.php:66
+msgctxt "auth"
+msgid "Code has expired."
+msgstr ""
+
+#: app/users/vendor-trait.php:31
+msgctxt "orders"
+msgid "Stripe account not set up for this user."
+msgstr ""
+
+#: app/utils/auth-utils.php:114
+msgctxt "auth"
+msgid "Account confirmation"
+msgstr ""
+
+#: app/utils/auth-utils.php:136
+msgid "Code verification failed."
+msgstr ""
+
+#: app/utils/auth-utils.php:141, app/utils/auth-utils.php:145
+msgid "Please try again."
+msgstr ""
+
+#: app/utils/nav-menu-walker.php:56, app/utils/popup-menu-walker.php:48, templates/widgets/product-form.php:69, templates/widgets/create-post/taxonomy-field.php:128, templates/widgets/search-form/terms-filter.php:111, templates/widgets/login/recover/recover-screen.php:31, templates/widgets/login/register/taxonomy-field.php:72, templates/widgets/login/security/delete-account-screen.php:29, templates/widgets/login/security/privacy-screen.php:34, templates/widgets/login/security/update-email-screen.php:63, templates/widgets/login/security/update-password-screen.php:54
+msgid "Go back"
+msgstr ""
+
+#: app/utils/security-utils.php:13
+msgctxt "recaptcha"
+msgid "Missing security token."
+msgstr ""
+
+#: app/utils/security-utils.php:23
+msgctxt "recaptcha"
+msgid "Security check failed."
+msgstr ""
+
+#: app/utils/security-utils.php:28
+msgctxt "recaptcha"
+msgid "Could not verify captcha."
+msgstr ""
+
+#: app/utils/security-utils.php:34
+msgid "Could not verify request."
+msgstr ""
+
+#: app/utils/security-utils.php:40
+msgctxt "auth"
+msgid "Please enter a username."
+msgstr ""
+
+#: app/utils/security-utils.php:44
+msgctxt "auth"
+msgid "Please enter a valid username."
+msgstr ""
+
+#: app/utils/security-utils.php:48
+msgctxt "auth"
+msgid "This username is already registered. Please choose another one."
+msgstr ""
+
+#: app/utils/security-utils.php:53
+msgctxt "auth"
+msgid "This username is not allowed."
+msgstr ""
+
+#: app/utils/security-utils.php:59
+msgctxt "validate password"
+msgid "Password must contain at least 8 characters."
+msgstr ""
+
+#: app/utils/security-utils.php:63
+msgctxt "validate password"
+msgid "Password must contain at least one number."
+msgstr ""
+
+#: app/utils/security-utils.php:67
+msgctxt "validate password"
+msgid "Password must contain at least one letter."
+msgstr ""
+
+#: app/utils/security-utils.php:73
+msgctxt "auth"
+msgid "Please enter your email address."
+msgstr ""
+
+#: app/utils/security-utils.php:77
+msgctxt "auth"
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: app/utils/security-utils.php:81
+msgctxt "auth"
+msgid "This email is already registered."
+msgstr ""
+
+#: app/utils/stat-utils.php:886
+msgctxt "device type"
+msgid "Mobile"
+msgstr ""
+
+#: app/utils/stat-utils.php:887
+msgctxt "device type"
+msgid "Desktop"
+msgstr ""
+
+#: app/utils/stat-utils.php:899
+msgctxt "browser type"
+msgid "Chrome"
+msgstr ""
+
+#: app/utils/stat-utils.php:900
+msgctxt "browser type"
+msgid "Firefox"
+msgstr ""
+
+#: app/utils/stat-utils.php:901
+msgctxt "browser type"
+msgid "Safari"
+msgstr ""
+
+#: app/utils/stat-utils.php:902
+msgctxt "browser type"
+msgid "Edge"
+msgstr ""
+
+#: app/utils/stat-utils.php:903
+msgctxt "browser type"
+msgid "Opera"
+msgstr ""
+
+#: app/utils/stat-utils.php:904
+msgctxt "browser type"
+msgid "Internet Explorer"
+msgstr ""
+
+#: app/utils/stat-utils.php:916
+msgctxt "platform type"
+msgid "Windows"
+msgstr ""
+
+#: app/utils/stat-utils.php:917
+msgctxt "platform type"
+msgid "macOS"
+msgstr ""
+
+#: app/utils/stat-utils.php:918
+msgctxt "platform type"
+msgid "Linux"
+msgstr ""
+
+#: app/utils/stat-utils.php:919
+msgctxt "platform type"
+msgid "Ubuntu"
+msgstr ""
+
+#: app/utils/stat-utils.php:920
+msgctxt "platform type"
+msgid "iOS"
+msgstr ""
+
+#: app/utils/stat-utils.php:921
+msgctxt "platform type"
+msgid "Android"
+msgstr ""
+
+#: app/utils/stat-utils.php:922
+msgctxt "platform type"
+msgid "webOS"
+msgstr ""
+
+#: app/utils/utils.php:379
+msgctxt "price interval"
+msgid "yearly"
+msgstr ""
+
+#: app/utils/utils.php:380
+msgctxt "price interval"
+msgid "every %s years"
+msgstr ""
+
+#: app/utils/utils.php:375
+msgctxt "price interval"
+msgid "monthly"
+msgstr ""
+
+#: app/utils/utils.php:376
+msgctxt "price interval"
+msgid "every %s months"
+msgstr ""
+
+#: app/utils/utils.php:371
+msgctxt "price interval"
+msgid "weekly"
+msgstr ""
+
+#: app/utils/utils.php:372
+msgctxt "price interval"
+msgid "every %s weeks"
+msgstr ""
+
+#: app/utils/utils.php:367
+msgctxt "price interval"
+msgid "daily"
+msgstr ""
+
+#: app/utils/utils.php:368
+msgctxt "price interval"
+msgid "every %s days"
+msgstr ""
+
+#: app/utils/utils.php:822
+msgctxt "range presets"
+msgid "All"
+msgstr ""
+
+#: app/utils/utils.php:832
+msgctxt "range presets"
+msgid "Upcoming"
+msgstr ""
+
+#: app/utils/utils.php:842
+msgctxt "range presets"
+msgid "Today"
+msgstr ""
+
+#: app/utils/utils.php:852
+msgctxt "range presets"
+msgid "Tomorrow"
+msgstr ""
+
+#: app/utils/utils.php:862
+msgctxt "range presets"
+msgid "This weekend"
+msgstr ""
+
+#: app/utils/utils.php:873
+msgctxt "range presets"
+msgid "This week"
+msgstr ""
+
+#: app/utils/utils.php:886
+msgctxt "range presets"
+msgid "Next week"
+msgstr ""
+
+#: app/utils/utils.php:898
+msgctxt "range presets"
+msgid "Next 7 days"
+msgstr ""
+
+#: app/utils/utils.php:908
+msgctxt "range presets"
+msgid "This month"
+msgstr ""
+
+#: app/utils/utils.php:918
+msgctxt "range presets"
+msgid "Next month"
+msgstr ""
+
+#: app/utils/utils.php:928
+msgctxt "range presets"
+msgid "Next 30 days"
+msgstr ""
+
+#: app/utils/utils.php:938
+msgctxt "range presets"
+msgid "This year"
+msgstr ""
+
+#: app/utils/utils.php:948
+msgctxt "range presets"
+msgid "Next year"
+msgstr ""
+
+#: app/utils/utils.php:958
+msgctxt "range presets"
+msgid "Next 365 days"
+msgstr ""
+
+#: app/utils/utils.php:1066
+msgctxt "post feed"
+msgid "Showing @count out of @total results"
+msgstr ""
+
+#: app/utils/utils.php:1062
+msgctxt "post feed"
+msgid "@count results"
+msgstr ""
+
+#: app/utils/utils.php:1060
+msgctxt "post feed"
+msgid "One result"
+msgstr ""
+
+#: app/utils/utils.php:1058
+msgctxt "post feed"
+msgid "No results"
+msgstr ""
+
+#: app/widgets/booking-calendar.php:1606
+msgctxt "reservations widget"
+msgid "Upcoming"
+msgstr ""
+
+#: app/widgets/booking-calendar.php:1607
+msgctxt "reservations widget"
+msgid "Next 7 days"
+msgstr ""
+
+#: app/widgets/booking-calendar.php:1608
+msgctxt "reservations widget"
+msgid "This week"
+msgstr ""
+
+#: app/widgets/booking-calendar.php:1609
+msgctxt "reservations widget"
+msgid "Next week"
+msgstr ""
+
+#: app/widgets/booking-calendar.php:1610
+msgctxt "reservations widget"
+msgid "Custom"
+msgstr ""
+
+#: app/widgets/configure-plan.php:1004
+msgctxt "pricing"
+msgid "This plan cannot be purchased."
+msgstr ""
+
+#: app/widgets/configure-plan.php:1089
+msgctxt "pricing"
+msgid "This plan cannot be modified."
+msgstr ""
+
+#: app/widgets/create-post.php:5931
+msgctxt "field validation"
+msgid "Required"
+msgstr ""
+
+#: app/widgets/create-post.php:5932
+msgctxt "field validation"
+msgid "Value cannot be shorter than @minlength characters"
+msgstr ""
+
+#: app/widgets/create-post.php:5933
+msgctxt "field validation"
+msgid "Value cannot be longer than @maxlength characters"
+msgstr ""
+
+#: app/widgets/create-post.php:5934
+msgctxt "field validation"
+msgid "You must provide a valid email address"
+msgstr ""
+
+#: app/widgets/create-post.php:5935
+msgctxt "field validation"
+msgid "Value cannot be less than @min"
+msgstr ""
+
+#: app/widgets/create-post.php:5936
+msgctxt "field validation"
+msgid "Value cannot be more than @max"
+msgstr ""
+
+#: app/widgets/create-post.php:5937
+msgctxt "field validation"
+msgid "You must provide a valid URL"
+msgstr ""
+
+#: app/widgets/create-post.php:5938
+msgctxt "field validation"
+msgid "You cannot pick more than @max items"
+msgstr ""
+
+#: app/widgets/create-post.php:5939
+msgctxt "field validation"
+msgid "You cannot pick more than @max files"
+msgstr ""
+
+#: app/widgets/create-post.php:5940
+msgctxt "field validation"
+msgid "@filename is over the @limit_mb MB limit"
+msgstr ""
+
+#: app/widgets/create-post.php:5941
+msgctxt "field validation"
+msgid "Unsupported file type: @filename"
+msgstr ""
+
+#: app/widgets/create-post.php:5942
+msgctxt "field validation"
+msgid "You cannot add more than @max dates"
+msgstr ""
+
+#: app/widgets/create-post.php:5943
+msgctxt "field validation"
+msgid "Date cannot be empty"
+msgstr ""
+
+#: app/widgets/create-post.php:5944
+msgctxt "field validation"
+msgid "Recurring dates must have a final date set"
+msgstr ""
+
+#: app/widgets/create-post.php:5945
+msgctxt "field validation"
+msgid "You must provide a valid color"
+msgstr ""
+
+#: app/widgets/create-post.php:5946
+msgctxt "field validation"
+msgid "The provided coordinates are not valid"
+msgstr ""
+
+#: app/widgets/create-post.php:5947
+msgctxt "field validation"
+msgid "You must add at least @min entries"
+msgstr ""
+
+#: app/widgets/create-post.php:5948
+msgctxt "field validation"
+msgid "You cannot add more than @max entries"
+msgstr ""
+
+#: app/widgets/create-post.php:5949
+msgctxt "field validation"
+msgid "Label and price are required"
+msgstr ""
+
+#: app/widgets/create-post.php:5950
+msgctxt "field validation"
+msgid "Quantity is required"
+msgstr ""
+
+#: app/widgets/create-post.php:5951
+msgctxt "repeater row validation"
+msgid "Missing data"
+msgstr ""
+
+#: app/widgets/create-post.php:5952
+msgctxt "repeater row validation"
+msgid "Please fill in all required fields"
+msgstr ""
+
+#: app/widgets/login.php:2718
+msgctxt "auth"
+msgid "You must register first in order to use Google Sign-In"
+msgstr ""
+
+#: app/widgets/messages.php:1858
+msgctxt "emoji popup"
+msgid "Smileys & Emotion"
+msgstr ""
+
+#: app/widgets/messages.php:1859
+msgctxt "emoji popup"
+msgid "People & Body"
+msgstr ""
+
+#: app/widgets/messages.php:1860
+msgctxt "emoji popup"
+msgid "Animals & Nature"
+msgstr ""
+
+#: app/widgets/messages.php:1861
+msgctxt "emoji popup"
+msgid "Food & Drink"
+msgstr ""
+
+#: app/widgets/messages.php:1862
+msgctxt "emoji popup"
+msgid "Travel & Places"
+msgstr ""
+
+#: app/widgets/messages.php:1863
+msgctxt "emoji popup"
+msgid "Activities"
+msgstr ""
+
+#: app/widgets/messages.php:1864
+msgctxt "emoji popup"
+msgid "Objects"
+msgstr ""
+
+#: app/widgets/orders.php:4058
+msgid "You must be logged in to view this content."
+msgstr ""
+
+#: app/widgets/orders.php:4067, app/widgets/timeline.php:2587
+msgctxt "orders"
+msgid "Attach images"
+msgstr ""
+
+#: app/widgets/orders.php:4068
+msgctxt "orders"
+msgid "Attach files"
+msgstr ""
+
+#: app/widgets/orders.php:4069
+msgctxt "orders"
+msgid "Your file(s) have been delivered."
+msgstr ""
+
+#: app/widgets/orders.php:4074
+msgctxt "order status"
+msgid "All"
+msgstr ""
+
+#: app/widgets/orders.php:4083
+msgctxt "orders"
+msgid "Subscriptions"
+msgstr ""
+
+#: app/widgets/orders.php:4085
+msgctxt "order status"
+msgid "Active"
+msgstr ""
+
+#: app/widgets/orders.php:4086
+msgctxt "order status"
+msgid "Trialing"
+msgstr ""
+
+#: app/widgets/orders.php:4087
+msgctxt "order status"
+msgid "Past due"
+msgstr ""
+
+#: app/widgets/orders.php:4088
+msgctxt "order status"
+msgid "Incomplete"
+msgstr ""
+
+#: app/widgets/orders.php:4089
+msgctxt "order status"
+msgid "Expired"
+msgstr ""
+
+#: app/widgets/orders.php:4091
+msgctxt "order status"
+msgid "Unpaid"
+msgstr ""
+
+#: app/widgets/orders.php:4125
+msgctxt "single order"
+msgid "Approve"
+msgstr ""
+
+#: app/widgets/orders.php:4129
+msgctxt "single order"
+msgid "Decline"
+msgstr ""
+
+#: app/widgets/orders.php:4133
+msgctxt "single order"
+msgid "Approve refund"
+msgstr ""
+
+#: app/widgets/orders.php:4137
+msgctxt "single order"
+msgid "Decline refund"
+msgstr ""
+
+#: app/widgets/orders.php:4141
+msgctxt "single order"
+msgid "Cancel order"
+msgstr ""
+
+#: app/widgets/orders.php:4145
+msgctxt "single order"
+msgid "Request a refund"
+msgstr ""
+
+#: app/widgets/orders.php:4149
+msgctxt "single order"
+msgid "Cancel refund request"
+msgstr ""
+
+#: app/widgets/orders.php:4157
+msgctxt "single order"
+msgid "Customer portal"
+msgstr ""
+
+#: app/widgets/orders.php:4161
+msgctxt "single order"
+msgid "Reactivate subscription"
+msgstr ""
+
+#: app/widgets/orders.php:4165
+msgctxt "single order"
+msgid "Retry payment"
+msgstr ""
+
+#: app/widgets/orders.php:4169
+msgctxt "single order"
+msgid "Cancel subscription"
+msgstr ""
+
+#: app/widgets/orders.php:4173
+msgctxt "single order"
+msgid "Sync with Stripe"
+msgstr ""
+
+#: app/widgets/search-form.php:392
+msgid "Switch position to center of screen"
+msgstr ""
+
+#: app/widgets/search-form.php:3763
+msgid "Min width"
+msgstr ""
+
+#: app/widgets/search-form.php:3765, app/widgets/search-form.php:3785, app/widgets/search-form.php:3805
+msgid "Does not affect mobile"
+msgstr ""
+
+#: app/widgets/search-form.php:3783
+msgid "Max width"
+msgstr ""
+
+#: app/widgets/search-form.php:3803
+msgid "Max height"
+msgstr ""
+
+#: templates/components/alert.php:13
+msgctxt "close alert"
+msgid "Close"
+msgstr ""
+
+#: templates/components/popup.php:27
+msgctxt "popup actions"
+msgid "Clear"
+msgstr ""
+
+#: templates/components/popup.php:32
+msgctxt "popup actions"
+msgid "Save"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:5
+msgctxt "sales chart"
+msgid "Week"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:8
+msgctxt "sales chart"
+msgid "Month"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:11
+msgctxt "sales chart"
+msgid "Year"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:14
+msgctxt "sales chart"
+msgid "All time"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:37
+msgctxt "sales chart"
+msgid "Value"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:38
+msgctxt "sales chart"
+msgid "Orders"
+msgstr ""
+
+#: templates/widgets/bar-chart.php:43
+msgctxt "sales chart"
+msgid "No activity"
+msgstr ""
+
+#: templates/widgets/booking-calendar.php:49
+msgctxt "booking calendar"
+msgid "Select date"
+msgstr ""
+
+#: templates/widgets/booking-calendar.php:68
+msgctxt "booking calendar"
+msgid "All posts"
+msgstr ""
+
+#: templates/widgets/booking-calendar.php:102, templates/widgets/booking-calendar.php:146, templates/widgets/messages.php:62, templates/widgets/messages.php:240, templates/widgets/timeline.php:70, templates/widgets/advanced-list/save-post-action.php:77, templates/widgets/create-post/post-relation-field.php:58, templates/widgets/create-post/post-relation-field.php:104, templates/widgets/create-post/taxonomy-field.php:178, templates/widgets/create-post/_media-popup.php:49, templates/widgets/create-post/_media-popup.php:91, templates/widgets/search-form/terms-filter.php:162, templates/widgets/user-bar/messages.php:68, templates/widgets/user-bar/notifications.php:95, templates/widgets/user-bar/notifications.php:130, templates/widgets/login/register/taxonomy-field.php:114
+msgid "Load more"
+msgstr ""
+
+#: templates/widgets/booking-calendar.php:107, templates/widgets/create-post/post-relation-field.php:112, templates/widgets/create-post/_media-popup.php:82
+msgid "Loading"
+msgstr ""
+
+#: templates/widgets/booking-calendar.php:108
+msgctxt "booking calendar"
+msgid "No posts with active reservations found."
+msgstr ""
+
+#: templates/widgets/booking-calendar.php:151
+msgctxt "booking calendar"
+msgid "No bookings found"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:13
+msgctxt "configure plan"
+msgid "@current_count posted"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:19, templates/widgets/configure-plan.php:26
+msgctxt "configure plan"
+msgid "@current_limit allowed"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:36
+msgctxt "configure plan"
+msgid "Increase limits"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:59, templates/widgets/configure-plan.php:72
+msgctxt "configure plan"
+msgid "@unpublish_count of your most recent posts will be unpublished upon activating this plan"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:86, templates/widgets/configure-plan.php:122, templates/widgets/configure-plan.php:166, templates/widgets/configure-plan.php:209
+msgctxt "configure plan"
+msgid "Price calculator"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:102
+msgctxt "configure plan"
+msgid "Total price"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:111, templates/widgets/configure-plan.php:199
+msgctxt "configure plan"
+msgid "Upgrade"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:128, templates/widgets/configure-plan.php:215
+msgctxt "configure plan"
+msgid "Base price"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:146, templates/widgets/configure-plan.php:190, templates/widgets/configure-plan.php:233
+msgctxt "configure plan"
+msgid "Upgraded plan price"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:154
+msgctxt "configure plan"
+msgid "Purchase"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:172
+msgctxt "configure plan"
+msgid "Current price"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:241
+msgctxt "configure plan"
+msgid "Subscribe"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:253
+msgctxt "configure plan"
+msgid "This plan cannot be modified"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:263
+msgctxt "configure plan"
+msgid "Explore plans"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:274
+msgctxt "configure plan"
+msgid "Confirm this action"
+msgstr ""
+
+#: templates/widgets/configure-plan.php:279
+msgctxt "configure plan"
+msgid "Switch to free plan"
+msgstr ""
+
+#: templates/widgets/countdown.php:4
+msgctxt "countdown widget"
+msgid "Days"
+msgstr ""
+
+#: templates/widgets/countdown.php:5
+msgctxt "countdown widget"
+msgid "Hours"
+msgstr ""
+
+#: templates/widgets/countdown.php:6
+msgctxt "countdown widget"
+msgid "Minutes"
+msgstr ""
+
+#: templates/widgets/countdown.php:7
+msgctxt "countdown widget"
+msgid "Seconds"
+msgstr ""
+
+#: templates/widgets/create-post.php:74
+msgctxt "create post"
+msgid "View your profile"
+msgstr ""
+
+#: templates/widgets/create-post.php:77
+msgctxt "create post"
+msgid "View"
+msgstr ""
+
+#: templates/widgets/create-post.php:86
+msgctxt "create post"
+msgid "Back to editing"
+msgstr ""
+
+#: templates/widgets/create-post.php:106
+msgctxt "create post"
+msgid "Save as draft"
+msgstr ""
+
+#: templates/widgets/create-post.php:109, templates/widgets/create-post.php:186
+msgctxt "create post"
+msgid "Previous step"
+msgstr ""
+
+#: templates/widgets/create-post.php:112, templates/widgets/create-post.php:191
+msgctxt "create post"
+msgid "Next step"
+msgstr ""
+
+#: templates/widgets/create-post.php:165, templates/widgets/create-post/repeater-field.php:125, templates/widgets/create-post/texteditor-field.php:9, templates/widgets/create-post/texteditor-field.php:29
+msgctxt "create post"
+msgid "Optional"
+msgstr ""
+
+#: templates/widgets/create-post.php:207, templates/widgets/create-post.php:219
+msgctxt "create post"
+msgid "Please wait"
+msgstr ""
+
+#: templates/widgets/create-post.php:210
+msgctxt "create post"
+msgid "Publish"
+msgstr ""
+
+#: templates/widgets/create-post.php:223
+msgctxt "create post"
+msgid "Save changes"
+msgstr ""
+
+#: templates/widgets/create-post.php:38
+msgctxt "create post"
+msgid "You have reached your allowed submission limit"
+msgstr ""
+
+#: templates/widgets/create-post.php:36
+msgctxt "create post"
+msgid "Your current plan does not have submission capabilities"
+msgstr ""
+
+#: templates/widgets/create-post.php:45
+msgctxt "create post"
+msgid "Increase limits of your current plan"
+msgstr ""
+
+#: templates/widgets/create-post.php:50
+msgctxt "create post"
+msgid "Switch to a different plan"
+msgstr ""
+
+#: templates/widgets/create-post.php:54
+msgctxt "create post"
+msgid "View your current plan"
+msgstr ""
+
+#: templates/widgets/current-plan.php:8
+msgctxt "current plan"
+msgid "Your current plan is @plan_label"
+msgstr ""
+
+#: templates/widgets/current-plan.php:192
+msgctxt "current plan"
+msgid "Your current membership plan was manually assigned."
+msgstr ""
+
+#: templates/widgets/current-plan.php:198, templates/widgets/current-plan.php:147
+msgctxt "current plan"
+msgid "Switch"
+msgstr ""
+
+#: templates/widgets/current-plan.php:204, templates/widgets/current-plan.php:182, templates/widgets/current-plan.php:159, templates/widgets/current-plan.php:121
+msgctxt "current plan"
+msgid "Plan limits"
+msgstr ""
+
+#: templates/widgets/current-plan.php:168
+msgctxt "current plan"
+msgid "Your current plan is"
+msgstr ""
+
+#: templates/widgets/current-plan.php:175
+msgctxt "current plan"
+msgid "Explore plans"
+msgstr ""
+
+#: templates/widgets/current-plan.php:138
+msgctxt "current plan"
+msgid "one time payment"
+msgstr ""
+
+#: templates/widgets/current-plan.php:132
+msgctxt "current plan"
+msgid "Free"
+msgstr ""
+
+#: templates/widgets/current-plan.php:153, templates/widgets/current-plan.php:114
+msgctxt "current plan"
+msgid "Stripe portal"
+msgstr ""
+
+#: templates/widgets/current-plan.php:86
+msgctxt "current plan"
+msgid ""
+"Subscription has been deactivated due to failed renewal payments. <a:update>Update payment method</a>,\n"
+"							then <a:finalize>finalize payment</a> to reactivate your subscription."
+msgstr ""
+
+#: templates/widgets/current-plan.php:78
+msgctxt "current plan"
+msgid "Subscription has been canceled. Click <a:choose_plan>here</a> to pick a new plan."
+msgstr ""
+
+#: templates/widgets/current-plan.php:69
+msgctxt "current plan"
+msgid "Subscription renewal failed. <a:update>Update payment method</a>, then <a:finalize>finalize payment</a> to reactivate your subscription."
+msgstr ""
+
+#: templates/widgets/current-plan.php:60
+msgctxt "current plan"
+msgid "Subscription payment failed. Click <a:choose_plan>here</a> to pick a new plan."
+msgstr ""
+
+#: templates/widgets/current-plan.php:50
+msgctxt "current plan"
+msgid "<a:update>Update your payment method</a>, then <a:finalize>finalize payment</a> to activate your subscription."
+msgstr ""
+
+#: templates/widgets/current-plan.php:43
+msgctxt "current plan"
+msgid "Your subscription renews on @period_end"
+msgstr ""
+
+#: templates/widgets/current-plan.php:37
+msgctxt "current plan"
+msgid "Your trial ends on @trial_end"
+msgstr ""
+
+#: templates/widgets/current-plan.php:28
+msgctxt "current plan"
+msgid "Your subscription will be cancelled on @period_end. Click <a:reactivate>here</a> to reactivate."
+msgstr ""
+
+#: templates/widgets/current-plan.php:100
+msgctxt "current plan"
+msgid "Switch plan"
+msgstr ""
+
+#: templates/widgets/current-plan.php:107
+msgctxt "current plan"
+msgid "Cancel"
+msgstr ""
+
+#: templates/widgets/current-plan.php:226
+msgctxt "current role"
+msgid "You do not have a role assigned currently."
+msgstr ""
+
+#: templates/widgets/current-plan.php:219
+msgctxt "current role"
+msgid "Your current role is @role_label"
+msgstr ""
+
+#: templates/widgets/current-plan.php:235
+msgctxt "current role"
+msgid "Switch role"
+msgstr ""
+
+#: templates/widgets/current-plan.php:251
+msgctxt "current role"
+msgid "Switch to @role_label"
+msgstr ""
+
+#: templates/widgets/map.php:32
+msgctxt "map"
+msgid "Search this area"
+msgstr ""
+
+#: templates/widgets/map.php:28
+msgctxt "map"
+msgid "Search as I move the map"
+msgstr ""
+
+#: templates/widgets/messages.php:8, templates/widgets/user-bar/messages.php:48
+msgctxt "messages"
+msgid "No chats available"
+msgstr ""
+
+#: templates/widgets/messages.php:14
+msgctxt "messages"
+msgid "Search inbox"
+msgstr ""
+
+#: templates/widgets/messages.php:37
+msgctxt "messages"
+msgid "Searching chats"
+msgstr ""
+
+#: templates/widgets/messages.php:38
+msgctxt "messages"
+msgid "No chats found"
+msgstr ""
+
+#: templates/widgets/messages.php:100
+msgctxt "messages"
+msgid "View profile"
+msgstr ""
+
+#: templates/widgets/messages.php:108
+msgctxt "messages"
+msgid "Clear messages"
+msgstr ""
+
+#: templates/widgets/messages.php:116
+msgctxt "messages"
+msgid "Unblock"
+msgstr ""
+
+#: templates/widgets/messages.php:117
+msgctxt "messages"
+msgid "Block"
+msgstr ""
+
+#: templates/widgets/messages.php:125
+msgctxt "messages"
+msgid "Leave conversation"
+msgstr ""
+
+#: templates/widgets/messages.php:142
+msgctxt "messages"
+msgid "You have blocked this user from messaging you"
+msgstr ""
+
+#: templates/widgets/messages.php:143
+msgctxt "messages"
+msgid "You have been blocked from messaging this user"
+msgstr ""
+
+#: templates/widgets/messages.php:144
+msgctxt "messages"
+msgid "Start a conversation with"
+msgstr ""
+
+#: templates/widgets/messages.php:151
+msgctxt "messages"
+msgid "You have blocked this user from messaging you."
+msgstr ""
+
+#: templates/widgets/messages.php:154
+msgctxt "messages"
+msgid "You have been blocked from messaging this user."
+msgstr ""
+
+#: templates/widgets/messages.php:169
+msgctxt "messages"
+msgid "Deleted"
+msgstr ""
+
+#: templates/widgets/messages.php:175
+msgctxt "messages"
+msgid "Hidden"
+msgstr ""
+
+#: templates/widgets/messages.php:208
+msgctxt "messages"
+msgid "Delete"
+msgstr ""
+
+#: templates/widgets/messages.php:211
+msgctxt "messages"
+msgid "Hide"
+msgstr ""
+
+#: templates/widgets/messages.php:215
+msgctxt "messages"
+msgid "Cancel"
+msgstr ""
+
+#: templates/widgets/messages.php:220
+msgctxt "messages"
+msgid "More"
+msgstr ""
+
+#: templates/widgets/messages.php:223
+msgctxt "messages"
+msgid "Sending"
+msgstr ""
+
+#: templates/widgets/messages.php:232
+msgctxt "messages"
+msgid "Seen"
+msgstr ""
+
+#: templates/widgets/messages.php:259
+msgctxt "messages"
+msgid "Reply as @author_name"
+msgstr ""
+
+#: templates/widgets/messages.php:264
+msgctxt "messages"
+msgid "Your message"
+msgstr ""
+
+#: templates/widgets/messages.php:294
+msgctxt "messages"
+msgid "Search emojis"
+msgstr ""
+
+#: templates/widgets/messages.php:300
+msgctxt "emoji popup"
+msgid "Search results"
+msgstr ""
+
+#: templates/widgets/messages.php:301
+msgctxt "emoji popup"
+msgid "No emojis found"
+msgstr ""
+
+#: templates/widgets/messages.php:310
+msgctxt "emoji popup"
+msgid "Recently used"
+msgstr ""
+
+#: templates/widgets/messages.php:353
+msgctxt "messages"
+msgid "No conversation selected"
+msgstr ""
+
+#: templates/widgets/messages.php:366, templates/widgets/create-post/file-field.php:13, templates/widgets/orders/create-note.php:47, templates/widgets/product-form/_information-fields.php:62, templates/widgets/timeline/file-field.php:9, templates/widgets/login/register/file-field.php:17
+msgctxt "file field"
+msgid "Upload"
+msgstr ""
+
+#: templates/widgets/messages.php:370
+msgctxt "messages"
+msgid "Send"
+msgstr ""
+
+#: templates/widgets/orders.php:32, templates/widgets/orders.php:66
+msgctxt "orders"
+msgid "Incoming"
+msgstr ""
+
+#: templates/widgets/orders.php:35, templates/widgets/orders.php:77
+msgctxt "orders"
+msgid "Outgoing"
+msgstr ""
+
+#: templates/widgets/orders.php:38, templates/widgets/orders.php:55
+msgctxt "orders"
+msgid "All requests"
+msgstr ""
+
+#: templates/widgets/orders.php:88
+msgctxt "orders"
+msgid "Any status"
+msgstr ""
+
+#: templates/widgets/orders.php:122
+msgctxt "orders"
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/orders.php:131
+msgctxt "orders"
+msgid "Search orders"
+msgstr ""
+
+#: templates/widgets/orders.php:148
+msgctxt "orders"
+msgid "@customer sent a request"
+msgstr ""
+
+#: templates/widgets/orders.php:156
+msgctxt "orders"
+msgid "@customer sent a @price request"
+msgstr ""
+
+#: templates/widgets/orders.php:175
+msgctxt "orders"
+msgid "Previous"
+msgstr ""
+
+#: templates/widgets/orders.php:178
+msgctxt "orders"
+msgid "Next"
+msgstr ""
+
+#: templates/widgets/orders.php:189
+msgctxt "orders"
+msgid "No requests found"
+msgstr ""
+
+#: templates/widgets/pricing-plan.php:29
+msgctxt "pricing plans"
+msgid "Free"
+msgstr ""
+
+#: templates/widgets/pricing-plan.php:81, templates/widgets/pricing-plan.php:71
+msgctxt "pricing plans"
+msgid "Pick plan"
+msgstr ""
+
+#: templates/widgets/pricing-plan.php:74
+msgctxt "pricing plans"
+msgid "Switch to plan"
+msgstr ""
+
+#: templates/widgets/pricing-plan.php:66
+msgctxt "pricing plans"
+msgid "Current plan"
+msgstr ""
+
+#: templates/widgets/quick-search.php:113, templates/widgets/quick-search.php:27
+msgctxt "quick search"
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/quick-search.php:119, templates/widgets/quick-search.php:40
+msgctxt "quick search"
+msgid "No recent searches."
+msgstr ""
+
+#: templates/widgets/quick-search.php:146, templates/widgets/quick-search.php:67
+msgctxt "quick search"
+msgid "Clear searches"
+msgstr ""
+
+#: templates/widgets/quick-search.php:153, templates/widgets/quick-search.php:74
+msgid "Searching"
+msgstr ""
+
+#: templates/widgets/quick-search.php:154, templates/widgets/quick-search.php:75
+msgid "No results found"
+msgstr ""
+
+#: templates/widgets/quick-search.php:178, templates/widgets/quick-search.php:99
+msgctxt "quick search"
+msgid "Search for"
+msgstr ""
+
+#: templates/widgets/search-form.php:28
+msgctxt "search form"
+msgid "Filter results"
+msgstr ""
+
+#: templates/widgets/search-form.php:60
+msgctxt "search form"
+msgid "Clear"
+msgstr ""
+
+#: templates/widgets/search-form.php:63
+msgctxt "search form"
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/search-form.php:186
+msgctxt "search form"
+msgid "List view"
+msgstr ""
+
+#: templates/widgets/search-form.php:199
+msgctxt "search form"
+msgid "Map view"
+msgstr ""
+
+#: templates/widgets/stripe-account.php:13
+msgctxt "stripe vendor"
+msgid "Stripe Connect"
+msgstr ""
+
+#: templates/widgets/stripe-account.php:24
+msgctxt "stripe vendor"
+msgid "Setup your Stripe account in order to accept payments."
+msgstr ""
+
+#: templates/widgets/stripe-account.php:22
+msgctxt "stripe vendor"
+msgid "Your account is pending verification."
+msgstr ""
+
+#: templates/widgets/stripe-account.php:20
+msgctxt "stripe vendor"
+msgid "Your account is ready to accept payments."
+msgstr ""
+
+#: templates/widgets/stripe-account.php:46
+msgctxt "stripe vendor"
+msgid "Update information"
+msgstr ""
+
+#: templates/widgets/stripe-account.php:52
+msgctxt "stripe vendor"
+msgid "Stripe dashboard"
+msgstr ""
+
+#: templates/widgets/stripe-account.php:39
+msgctxt "stripe vendor"
+msgid "Submit required information"
+msgstr ""
+
+#: templates/widgets/stripe-account.php:32
+msgctxt "stripe vendor"
+msgid "Start setup"
+msgstr ""
+
+#: templates/widgets/stripe-account.php:17
+msgctxt "stripe vendor"
+msgid "Stripe vendor onboarding is not necessary for admin accounts."
+msgstr ""
+
+#: templates/widgets/visits-chart.php:5
+msgctxt "visits chart"
+msgid "24 hours"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:8
+msgctxt "visits chart"
+msgid "7 days"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:11
+msgctxt "visits chart"
+msgid "30 days"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:14
+msgctxt "visits chart"
+msgid "12 months"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:21
+msgctxt "visits chart"
+msgid "Loading data"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:41
+msgctxt "visits chart"
+msgid "Views"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:45
+msgctxt "visits chart"
+msgid "Unique views"
+msgstr ""
+
+#: templates/widgets/visits-chart.php:52
+msgctxt "visits chart"
+msgid "No activity"
+msgstr ""
+
+#: templates/widgets/work-hours.php:33, templates/widgets/work-hours.php:53, templates/widgets/work-hours.php:83
+msgctxt "work hours"
+msgid "Not available"
+msgstr ""
+
+#: templates/widgets/work-hours.php:59, templates/widgets/work-hours.php:89
+msgctxt "work hours"
+msgid "Appointments only"
+msgstr ""
+
+#: templates/widgets/work-hours.php:57, templates/widgets/work-hours.php:87
+msgctxt "work hours"
+msgid "Closed all day"
+msgstr ""
+
+#: templates/widgets/work-hours.php:55, templates/widgets/work-hours.php:85
+msgctxt "work hours"
+msgid "Open all day"
+msgstr ""
+
+#: templates/widgets/work-hours.php:103
+msgctxt "work hours"
+msgid "Timezone:"
+msgstr ""
+
+#: templates/widgets/work-hours.php:104
+msgctxt "work hours"
+msgid "@current_time local time"
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:133
+msgctxt "messages"
+msgid "No search term provided."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:212, app/controllers/frontend/inbox-controller.php:218
+msgctxt "messages"
+msgid "Chat not found."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:222
+msgctxt "messages"
+msgid "Chat not available: user not found"
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:226
+msgctxt "messages"
+msgid "Chat not available: post not found"
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:294, app/controllers/frontend/inbox-controller.php:629
+msgctxt "messages"
+msgid "You cannot send messages as this post."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:319, app/controllers/frontend/inbox-controller.php:329, app/controllers/frontend/inbox-controller.php:595, app/controllers/frontend/inbox-controller.php:648
+msgctxt "messages"
+msgid "You cannot message this user."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:310, app/controllers/frontend/inbox-controller.php:641
+msgctxt "messages"
+msgid "You cannot message this post."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:355
+msgctxt "messages"
+msgid "Message cannot be empty."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:570, app/controllers/frontend/inbox-controller.php:586
+msgctxt "messages"
+msgid "You cannot block this post."
+msgstr ""
+
+#: app/controllers/frontend/inbox-controller.php:682, app/controllers/frontend/inbox-controller.php:692, app/controllers/frontend/inbox-controller.php:698, app/controllers/frontend/inbox-controller.php:721, app/controllers/frontend/orders/orders-controller.php:187
+msgid "Not allowed."
+msgstr ""
+
+#: app/controllers/frontend/notification-controller.php:78, app/controllers/frontend/notification-controller.php:122, app/controllers/frontend/notification-controller.php:156
+msgctxt "notifications"
+msgid "Notification not found."
+msgstr ""
+
+#: app/controllers/frontend/notification-controller.php:187
+msgctxt "notifications"
+msgid "Action not found."
+msgstr ""
+
+#: app/controllers/frontend/tabs-controller.php:55, app/controllers/frontend/tabs-controller.php:65, app/controllers/frontend/tabs-controller.php:94, app/controllers/frontend/tabs-controller.php:136
+msgid "Access denied."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:31, app/controllers/frontend/user-controller.php:63
+msgctxt "timeline"
+msgid "User not found."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:57, app/controllers/frontend/timeline/timeline-controller.php:229
+msgctxt "timeline"
+msgid "Post not found."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:107
+msgctxt "collections"
+msgid "Collection not found."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:112
+msgctxt "collections"
+msgid "Post not found."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:118, app/controllers/frontend/user-controller.php:123
+msgctxt "collections"
+msgid "This post cannot be added to this collection."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:137
+msgctxt "collections"
+msgid "You cannot add any more items to this collection."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:160
+msgctxt "collections"
+msgid "Saved to @collection"
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:164
+msgctxt "collections"
+msgid "View collection"
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:193
+msgctxt "collections"
+msgid "Could not retrieve collections."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:255
+msgctxt "collections"
+msgid "You have reached the collection limit."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:274
+msgctxt "collections"
+msgid "Could not create collection."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:298, app/controllers/frontend/user-controller.php:321, app/controllers/frontend/user-controller.php:325, app/controllers/frontend/user-controller.php:330, app/controllers/frontend/user-controller.php:360, app/controllers/frontend/user-controller.php:364, app/controllers/frontend/user-controller.php:369, app/controllers/frontend/user-controller.php:403, app/controllers/frontend/user-controller.php:407, app/controllers/frontend/user-controller.php:412
+msgid "Permission denied."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:334
+msgid "Only published posts can be unpublished."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:373
+msgid "Only unpublished posts can be republished using this action."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:377, app/controllers/frontend/user-controller.php:440, app/controllers/frontend/user-controller.php:437
+msgid "You have reached your allowed submission limit."
+msgstr ""
+
+#: app/controllers/frontend/user-controller.php:416
+msgid "Only expired posts can be relisted using this action."
+msgstr ""
+
+#: app/controllers/onboarding/onboarding-controller.php:29, app/controllers/onboarding/onboarding-controller.php:30
+msgid "Onboarding"
+msgstr ""
+
+#: app/events/post-relations/relation-requested-event.php:127
+msgctxt "relation request"
+msgid "Declined"
+msgstr ""
+
+#: app/events/post-relations/relation-requested-event.php:120
+msgctxt "relation request"
+msgid "Approved"
+msgstr ""
+
+#: app/events/post-relations/relation-requested-event.php:136
+msgctxt "relation request"
+msgid "Approve"
+msgstr ""
+
+#: app/events/post-relations/relation-requested-event.php:153
+msgctxt "relation request"
+msgid "Decline"
+msgstr ""
+
+#: app/post-types/fields/number-field.php:77
+msgctxt "field validation"
+msgid "@field_name cannot be less than @length"
+msgstr ""
+
+#: app/post-types/fields/number-field.php:86
+msgctxt "field validation"
+msgid "@field_name cannot be more than @length"
+msgstr ""
+
+#: app/post-types/fields/product-field.php:270
+msgctxt "product field"
+msgid "Day(s)"
+msgstr ""
+
+#: app/post-types/fields/product-field.php:271
+msgctxt "product field"
+msgid "Week(s)"
+msgstr ""
+
+#: app/post-types/fields/product-field.php:272
+msgctxt "product field"
+msgid "Month(s)"
+msgstr ""
+
+#: app/post-types/fields/product-field.php:280
+msgctxt "product field"
+msgid "Downloads"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:135
+msgctxt "field validation"
+msgid "Only one entry allowed in @field_name field"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:143
+msgctxt "field validation"
+msgid "Only up to @amount entries allowed in @field_name field"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:153
+msgctxt "field validation"
+msgid "@field_name: End time cannot be set before start time."
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:162
+msgctxt "field validation"
+msgid "Date frequency is required for @field_name"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:170
+msgctxt "field validation"
+msgid "Repeat until date must be set for @field_name"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:282
+msgctxt "recurring date field"
+msgid "Day(s)"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:283
+msgctxt "recurring date field"
+msgid "Week(s)"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:284
+msgctxt "recurring date field"
+msgid "Month(s)"
+msgstr ""
+
+#: app/post-types/fields/recurring-date-field.php:285
+msgctxt "recurring date field"
+msgid "Year(s)"
+msgstr ""
+
+#: app/post-types/fields/repeater-field.php:206
+msgctxt "field validation"
+msgid "@field_name must contain at least @min entries"
+msgstr ""
+
+#: app/post-types/fields/repeater-field.php:216
+msgctxt "field validation"
+msgid "@field_name cannot contain more than @max entries"
+msgstr ""
+
+#: app/post-types/fields/repeater-field.php:241
+msgctxt "field validation"
+msgid "Label is required for \"@field_name\" items."
+msgstr ""
+
+#: app/post-types/fields/repeater-field.php:250
+msgctxt "field validation"
+msgid "Provided quantity values for \"@field_name\" item are not valid."
+msgstr ""
+
+#: app/post-types/fields/url-field.php:46
+msgctxt "url field"
+msgid "@field_name must be a valid url address."
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:149, templates/widgets/create-post/work-hours-field.php:74
+msgctxt "work hours field"
+msgid "Enter hours"
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:150
+msgctxt "work hours field"
+msgid "Open all day"
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:151
+msgctxt "work hours field"
+msgid "Closed all day"
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:152, app/post-types/fields/work-hours-field.php:320
+msgctxt "work hours field"
+msgid "Appointments only"
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:303, app/post-types/fields/work-hours-field.php:322
+msgctxt "work hours field"
+msgid "Not available"
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:318, app/post-types/fields/work-hours-field.php:314
+msgctxt "work hours field"
+msgid "Closed"
+msgstr ""
+
+#: app/post-types/fields/work-hours-field.php:316, app/post-types/fields/work-hours-field.php:314
+msgctxt "work hours field"
+msgid "Open"
+msgstr ""
+
+#: app/post-types/filters/location-filter.php:342
+msgctxt "location filter"
+msgid "Visible map area"
+msgstr ""
+
+#: app/post-types/filters/post-status-filter.php:118
+msgctxt "post status filter"
+msgid "All"
+msgstr ""
+
+#: app/product-types/additions/checkbox-addition.php:40
+msgctxt "checkbox addition"
+msgid "Price is required for @addition_name addition"
+msgstr ""
+
+#: app/product-types/additions/numeric-addition.php:52
+msgctxt "numeric addition"
+msgid "Price is required for @addition_name addition"
+msgstr ""
+
+#: app/product-types/additions/numeric-addition.php:60
+msgctxt "numeric addition"
+msgid "Minimum and maximum values are required for @addition_name addition"
+msgstr ""
+
+#: app/product-types/additions/numeric-addition.php:68
+msgctxt "numeric addition"
+msgid "Minimum value cannot be larger than maximum for @addition_name addition."
+msgstr ""
+
+#: app/product-types/additions/select-addition.php:66
+msgctxt "select addition"
+msgid "Price is required for @addition_name addition choices."
+msgstr ""
+
+#: app/product-types/additions/select-addition.php:78
+msgctxt "select addition"
+msgid "Price is required for @addition_name addition"
+msgstr ""
+
+#: app/product-types/additions/select-addition.php:138
+msgctxt "select addition"
+msgid "Pick an option"
+msgstr ""
+
+#: app/product-types/information-fields/switcher-field.php:35
+msgctxt "switcher information field"
+msgid "Yes"
+msgstr ""
+
+#: app/product-types/information-fields/switcher-field.php:35
+msgctxt "switcher information field"
+msgid "No"
+msgstr ""
+
+#: app/product-types/order-comments/comment-deliverables-field.php:17
+msgctxt "order deliverables"
+msgid "Attach files"
+msgstr ""
+
+#: app/product-types/order-comments/comment-files-field.php:17
+msgctxt "order comment files"
+msgid "Attach files"
+msgstr ""
+
+#: app/timeline/fields/status-files-field.php:15
+msgctxt "timeline"
+msgid "Attach files"
+msgstr ""
+
+#: templates/widgets/advanced-list/delete-post-action.php:12
+msgctxt "delete post action"
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/widgets/advanced-list/edit-post-action.php:22
+msgctxt "edit post action"
+msgid "Edit"
+msgstr ""
+
+#: templates/widgets/advanced-list/save-post-action.php:23
+msgctxt "save post action"
+msgid "Save post"
+msgstr ""
+
+#: templates/widgets/advanced-list/save-post-action.php:37
+msgctxt "save post action"
+msgid "Collection name"
+msgstr ""
+
+#: templates/widgets/advanced-list/save-post-action.php:42
+msgid "Cancel"
+msgstr ""
+
+#: templates/widgets/advanced-list/save-post-action.php:43
+msgid "Create"
+msgstr ""
+
+#: templates/widgets/advanced-list/save-post-action.php:59
+msgctxt "save post action"
+msgid "Create collection"
+msgstr ""
+
+#: templates/widgets/advanced-list/share-post-action.php:25
+msgctxt "share post action"
+msgid "Share post"
+msgstr ""
+
+#: templates/widgets/create-post/location-field.php:22
+msgctxt "location field"
+msgid "Geolocate my address"
+msgstr ""
+
+#: templates/widgets/create-post/location-field.php:25
+msgctxt "location field"
+msgid "Pick the location manually?"
+msgstr ""
+
+#: templates/widgets/create-post/location-field.php:34
+msgctxt "location field"
+msgid "Pick on the map"
+msgstr ""
+
+#: templates/widgets/create-post/location-field.php:40, templates/widgets/create-post/location-field.php:45
+msgctxt "location field"
+msgid "Latitude"
+msgstr ""
+
+#: templates/widgets/create-post/location-field.php:50, templates/widgets/create-post/location-field.php:55
+msgctxt "location field"
+msgid "Longitude"
+msgstr ""
+
+#: templates/widgets/create-post/post-relation-field.php:22
+msgctxt "post relation field"
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/create-post/post-relation-field.php:49, templates/widgets/create-post/post-relation-field.php:94
+msgctxt "post relation field"
+msgid "Pending approval"
+msgstr ""
+
+#: templates/widgets/create-post/post-relation-field.php:65
+msgctxt "post relation field"
+msgid "Searching posts"
+msgstr ""
+
+#: templates/widgets/create-post/post-relation-field.php:66, templates/widgets/create-post/post-relation-field.php:117
+msgctxt "post relation field"
+msgid "No posts found"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:31
+msgctxt "product field"
+msgid "Price ID"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:43
+msgctxt "product field"
+msgid "Enter base price"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:49
+msgctxt "product field"
+msgid "Subscription interval"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:54
+msgctxt "product field"
+msgid "Repeat every"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:86
+msgctxt "product field"
+msgid "Make available next"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:88, templates/widgets/create-post/product-field.php:153, templates/widgets/create-post/product-field.php:222
+msgctxt "product field"
+msgid "e.g. 30"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:89, templates/widgets/create-post/product-field.php:154
+msgctxt "product field"
+msgid "days"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:106
+msgctxt "product field"
+msgid "Exclude days of week"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:110
+msgctxt "product field"
+msgid "Click to exclude weekdays"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:138
+msgctxt "product field"
+msgid "Calendar"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:139
+msgctxt "product field"
+msgid "Availability visualization based on your settings. Click to exclude specific days"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:149
+msgctxt "product field"
+msgid "Availability"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:150
+msgctxt "product field"
+msgid "How many days in advance can dates be booked?"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:210
+msgctxt "product field"
+msgid "Enable addition"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:220, templates/widgets/create-post/product-field.php:273
+msgctxt "product field"
+msgid "Price"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:230
+msgctxt "product field"
+msgid "Price per unit"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:231
+msgctxt "product field"
+msgid "per unit"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:241
+msgctxt "product field"
+msgid "Minimum"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:244
+msgctxt "product field"
+msgid "Min units"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:253
+msgctxt "product field"
+msgid "Maximum"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:256
+msgctxt "product field"
+msgid "Max units"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:300
+msgctxt "product field"
+msgid "Manage stock"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:301
+msgctxt "product field"
+msgid "Not available on this build"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:314
+msgctxt "product field"
+msgid "Enable notes"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:315
+msgctxt "product field"
+msgid "Notes are shared with customer when an order is placed"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:337
+msgctxt "product field"
+msgid "Timeslots"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:343
+msgctxt "product field"
+msgid "Time slot group"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:364
+msgctxt "product field"
+msgid "Choose days"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:370
+msgctxt "product field"
+msgid "Choose day(s)"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:401
+msgctxt "product field"
+msgid "Create time slots"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:404, templates/widgets/create-post/product-field.php:420
+msgctxt "product field"
+msgid "Add"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:426
+msgctxt "product field"
+msgid "Create slot"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:427, templates/widgets/create-post/product-field.php:463
+msgctxt "product field"
+msgid "Enter the start and end range"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:440, templates/widgets/create-post/product-field.php:456
+msgctxt "product field"
+msgid "Generate"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:462
+msgctxt "product field"
+msgid "Time range"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:474
+msgctxt "product field"
+msgid "Slot length"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:475
+msgctxt "product field"
+msgid "In minutes"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:487
+msgctxt "product field"
+msgid "Available time slots"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:488
+msgctxt "product field"
+msgid "Time slots you created"
+msgstr ""
+
+#: templates/widgets/create-post/product-field.php:504
+msgctxt "product field"
+msgid "Add timeslot group"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:15
+msgctxt "recurring date field"
+msgid "Date"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:29
+msgctxt "recurring date field"
+msgid "Multi-day?"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:53, templates/widgets/create-post/recurring-date-field.php:93
+msgctxt "recurring date field"
+msgid "From"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:65
+msgctxt "recurring date field"
+msgid "To"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:108
+msgctxt "recurring date field"
+msgid "Start time"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:113
+msgctxt "recurring date field"
+msgid "End time"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:120
+msgctxt "recurring date field"
+msgid "Enable recurrence?"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:130
+msgctxt "recurring date field"
+msgid "Repeat every"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:140
+msgctxt "recurring date field"
+msgid "Close"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:175
+msgctxt "recurring date field"
+msgid "Until"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:183
+msgctxt "recurring date field"
+msgid "Choose date"
+msgstr ""
+
+#: templates/widgets/create-post/recurring-date-field.php:205
+msgctxt "recurring date field"
+msgid "Add date"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:29
+msgctxt "repeater field"
+msgid "Label"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:31
+msgctxt "repeater field"
+msgid "Item label"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:35
+msgctxt "repeater field"
+msgid "Price"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:37
+msgctxt "repeater field"
+msgid "Item price"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:45
+msgctxt "repeater field"
+msgid "Enable quantity"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:46
+msgctxt "repeater field"
+msgid "Allows customer to purchase this item multiple times with a single order"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:62
+msgctxt "repeater field"
+msgid "Minimum"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:65
+msgctxt "repeater field"
+msgid "Min units"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:74
+msgctxt "repeater field"
+msgid "Maximum"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:77
+msgctxt "repeater field"
+msgid "Max units"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:85
+msgctxt "repeater field"
+msgid "Apply pricing to each day in booked day range"
+msgstr ""
+
+#: templates/widgets/create-post/repeater-field.php:98
+msgctxt "repeater field"
+msgid "Is required?"
+msgstr ""
+
+#: templates/widgets/create-post/taxonomy-field.php:13, templates/widgets/create-post/taxonomy-field.php:76, templates/widgets/login/register/taxonomy-field.php:28
+msgctxt "taxonomy field"
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/create-post/taxonomy-field.php:40, templates/widgets/create-post/taxonomy-field.php:105, templates/widgets/login/register/taxonomy-field.php:50
+msgctxt "taxonomy field"
+msgid "No results found."
+msgstr ""
+
+#: templates/widgets/create-post/timezone-field.php:20
+msgctxt "timezone field"
+msgid "Search timezones"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:23
+msgctxt "work hours field"
+msgid "Work hour set"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:37
+msgctxt "work hours field"
+msgid "Select days"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:38
+msgctxt "work hours field"
+msgid "Select the days that this work hour set applies to"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:43
+msgctxt "work hours field"
+msgid "Choose day(s)"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:49
+msgctxt "work hours field"
+msgid "Availability"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:50
+msgctxt "work hours field"
+msgid "Select availability for this set"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:75
+msgctxt "work hours field"
+msgid "Enter work hours for this set"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:97
+msgctxt "work hours field"
+msgid "Add additional hours"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:100
+msgctxt "work hours field"
+msgid "Add hours"
+msgstr ""
+
+#: templates/widgets/create-post/work-hours-field.php:135
+msgctxt "work hours field"
+msgid "Create work hour set"
+msgstr ""
+
+#: templates/widgets/create-post/_media-popup.php:4
+msgctxt "media library"
+msgid "Media library"
+msgstr ""
+
+#: templates/widgets/create-post/_media-popup.php:14
+msgctxt "media library"
+msgid "Save"
+msgstr ""
+
+#: templates/widgets/create-post/_media-popup.php:23
+msgctxt "media library"
+msgid "Search files"
+msgstr ""
+
+#: templates/widgets/create-post/_media-popup.php:54
+msgctxt "media library"
+msgid "Searching files"
+msgstr ""
+
+#: templates/widgets/create-post/_media-popup.php:55
+msgctxt "media library"
+msgid "No files found"
+msgstr ""
+
+#: templates/widgets/create-post/_media-popup.php:77
+msgctxt "media library"
+msgid "You have no files in your media library."
+msgstr ""
+
+#: templates/widgets/login/confirm-registration-screen.php:14, templates/widgets/login/confirm-registration-screen.php:19, templates/widgets/login/recover/confirm-screen.php:16, templates/widgets/login/security/update-email-screen.php:38, templates/widgets/login/security/update-email-screen.php:44
+msgctxt "auth"
+msgid "Confirmation code"
+msgstr ""
+
+#: templates/widgets/login/confirm-registration-screen.php:15
+msgctxt "auth"
+msgid "Please type the confirmation code which was sent to your email address"
+msgstr ""
+
+#: templates/widgets/login/confirm-registration-screen.php:25, templates/widgets/login/recover/confirm-screen.php:22
+msgctxt "auth"
+msgid "Submit"
+msgstr ""
+
+#: templates/widgets/login/confirm-registration-screen.php:32
+msgctxt "auth"
+msgid "Didn't receive code?"
+msgstr ""
+
+#: templates/widgets/login/confirm-registration-screen.php:37
+msgctxt "auth"
+msgid "Resend email"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:15, templates/widgets/login/register-screen.php:28
+msgctxt "auth"
+msgid "Social connect"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:21, templates/widgets/login/register-screen.php:35
+msgctxt "auth"
+msgid "Sign in with Google"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:31
+msgctxt "auth"
+msgid "Or enter details"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:37
+msgctxt "auth"
+msgid "Username"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:43, templates/widgets/login/security/delete-account-screen.php:17
+msgctxt "auth"
+msgid "Password"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:49
+msgctxt "auth"
+msgid "Login"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:54
+msgctxt "auth"
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:55
+msgctxt "auth"
+msgid "Recover account"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:62
+msgctxt "auth"
+msgid "Don't have an account?"
+msgstr ""
+
+#: templates/widgets/login/login-screen.php:67, templates/widgets/login/register-screen.php:214
+msgctxt "auth"
+msgid "Sign up"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:12
+msgctxt "auth"
+msgid "Join the platform as:"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:32
+msgctxt "auth"
+msgid "Connect with social media"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:39
+msgctxt "auth"
+msgid "Or enter your details"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:93, templates/widgets/login/register-screen.php:103, templates/widgets/login/register-screen.php:113, templates/widgets/login/register-screen.php:123, templates/widgets/login/register-screen.php:138, templates/widgets/login/register-screen.php:151, templates/widgets/login/register-screen.php:165, templates/widgets/login/register/date-field.php:10, templates/widgets/login/register/file-field.php:9, templates/widgets/login/register/select-field.php:11, templates/widgets/login/register/taxonomy-field.php:10
+msgctxt "auth"
+msgid "Optional"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:192
+msgctxt "auth"
+msgid "Terms and privacy"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:203
+msgctxt "auth"
+msgid "I agree to the <a:terms>Terms and Conditions</a> and <a:privacy>Privacy Policy</a>"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:221
+msgctxt "auth"
+msgid "Have an account already?"
+msgstr ""
+
+#: templates/widgets/login/register-screen.php:222
+msgctxt "auth"
+msgid "Login instead"
+msgstr ""
+
+#: templates/widgets/login/welcome-screen.php:15
+msgctxt "auth"
+msgid "Complete profile"
+msgstr ""
+
+#: templates/widgets/login/welcome-screen.php:20
+msgctxt "auth"
+msgid "Do it later"
+msgstr ""
+
+#: templates/widgets/orders/booking-details.php:9
+msgctxt "single order"
+msgid "Check-in"
+msgstr ""
+
+#: templates/widgets/orders/booking-details.php:21
+msgctxt "single order"
+msgid "Check-out"
+msgstr ""
+
+#: templates/widgets/orders/booking-details.php:34, templates/widgets/orders/booking-details.php:60
+msgctxt "single order"
+msgid "Date"
+msgstr ""
+
+#: templates/widgets/orders/booking-details.php:46
+msgctxt "single order"
+msgid "Timeslot"
+msgstr ""
+
+#: templates/widgets/orders/create-note.php:6
+msgctxt "single order"
+msgid "Post Comment"
+msgstr ""
+
+#: templates/widgets/orders/create-note.php:7, templates/widgets/orders/deliver-files.php:7
+msgctxt "single order"
+msgid "Cancel"
+msgstr ""
+
+#: templates/widgets/orders/create-note.php:16
+msgctxt "single order"
+msgid "Post a comment"
+msgstr ""
+
+#: templates/widgets/orders/create-note.php:27
+msgctxt "single order"
+msgid "What's on your mind?"
+msgstr ""
+
+#: templates/widgets/orders/deliver-files.php:6
+msgctxt "single order"
+msgid "Deliver"
+msgstr ""
+
+#: templates/widgets/orders/deliver-files.php:17
+msgctxt "single order"
+msgid "Deliver files"
+msgstr ""
+
+#: templates/widgets/orders/deliver-files.php:28
+msgctxt "single order"
+msgid "Add description"
+msgstr ""
+
+#: templates/widgets/orders/display-actions.php:15, templates/widgets/orders/display-actions.php:36
+msgctxt "single order"
+msgid "Close"
+msgstr ""
+
+#: templates/widgets/orders/display-note.php:8
+msgctxt "single order"
+msgid "posted a comment"
+msgstr ""
+
+#: templates/widgets/orders/display-note.php:33
+msgctxt "single order"
+msgid "Delivered files"
+msgstr ""
+
+#: templates/widgets/orders/display-note.php:52, templates/widgets/orders/single-order.php:208
+msgctxt "single order"
+msgid "downloads"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:9
+msgctxt "single order"
+msgid "Order not found"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:24
+msgctxt "single order"
+msgid "Sent a request on"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:46
+msgctxt "single order"
+msgid "Price"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:57
+msgctxt "single order"
+msgid "Order number"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:87
+msgctxt "single order"
+msgid "Request details"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:125
+msgctxt "single order"
+msgid "Tag order"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:148
+msgctxt "single order"
+msgid "Price breakdown"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:155
+msgctxt "single order"
+msgid "Base price"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:163
+msgctxt "single order"
+msgid "Total"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:172
+msgctxt "single order"
+msgid "Vendor notes"
+msgstr ""
+
+#: templates/widgets/orders/single-order.php:187
+msgctxt "single order"
+msgid "Downloads"
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:4
+msgctxt "single order"
+msgid ""
+"Your subscription will be cancelled on @period_end.\n"
+"				Click <a:reactivate>here</a> to reactivate."
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:13
+msgctxt "single order"
+msgid "Your trial ends on @trial_end"
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:18
+msgctxt "single order"
+msgid "Your subscription renews on @period_end"
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:24
+msgctxt "single order"
+msgid ""
+"<a:update>Update your payment method</a>,\n"
+"				then <a:finalize>finalize payment</a>\n"
+"				to activate your subscription."
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:34
+msgctxt "single order"
+msgid "Subscription payment failed"
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:38
+msgctxt "single order"
+msgid ""
+"Subscription renewal failed. <a:update>Update payment method</a>,\n"
+"				then <a:finalize>finalize payment</a>\n"
+"				to reactivate your subscription."
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:48
+msgctxt "single order"
+msgid "Subscription has been canceled"
+msgstr ""
+
+#: templates/widgets/orders/subscription-status.php:52
+msgctxt "single order"
+msgid ""
+"Subscription has been deactivated due to failed renewal payments.\n"
+"				<a:update>Update payment method</a>, then <a:finalize>finalize payment</a>\n"
+"				to reactivate your subscription."
+msgstr ""
+
+#: templates/widgets/post-feed/no-results.php:3
+msgctxt "post feed"
+msgid "There are no results matching your search."
+msgstr ""
+
+#: templates/widgets/post-feed/no-results.php:6
+msgctxt "post feed"
+msgid "Reset"
+msgstr ""
+
+#: templates/widgets/post-feed/pagination.php:28, templates/widgets/post-feed/pagination.php:6
+msgctxt "post feed"
+msgid "Previous"
+msgstr ""
+
+#: templates/widgets/post-feed/pagination.php:31, templates/widgets/post-feed/pagination.php:9
+msgctxt "post feed"
+msgid "Next"
+msgstr ""
+
+#: templates/widgets/post-feed/pagination.php:17
+msgctxt "post feed"
+msgid "Show more results"
+msgstr ""
+
+#: templates/widgets/product-form/booking.php:58
+msgctxt "product form"
+msgid "Upcoming dates"
+msgstr ""
+
+#: templates/widgets/product-form/booking.php:71
+msgctxt "product form"
+msgid "No bookable dates"
+msgstr ""
+
+#: templates/widgets/product-form/booking.php:32, templates/widgets/product-form/booking.php:10
+msgctxt "product form"
+msgid "Pick day"
+msgstr ""
+
+#: templates/widgets/product-form/booking.php:46
+msgctxt "product form"
+msgid "Pick slot"
+msgstr ""
+
+#: templates/widgets/product-form/pricing-summary.php:10
+msgctxt "product form"
+msgid "Base price"
+msgstr ""
+
+#: templates/widgets/product-form/pricing-summary.php:12, templates/widgets/product-form/pricing-summary.php:26
+msgctxt "product form"
+msgid "nights"
+msgstr ""
+
+#: templates/widgets/product-form/pricing-summary.php:13, templates/widgets/product-form/pricing-summary.php:27
+msgctxt "product form"
+msgid "days"
+msgstr ""
+
+#: templates/widgets/product-form/pricing-summary.php:54
+msgctxt "product form"
+msgid "Total"
+msgstr ""
+
+#: templates/widgets/search-form/location-filter.php:7
+msgctxt "location filter"
+msgid "Share your location"
+msgstr ""
+
+#: templates/widgets/search-form/location-filter.php:35
+msgctxt "location filter"
+msgid "Use my current location"
+msgstr ""
+
+#: templates/widgets/search-form/post-types-filter.php:4
+msgctxt "post types filter"
+msgid "Post type"
+msgstr ""
+
+#: templates/widgets/search-form/post-types-filter.php:16
+msgctxt "post types filter"
+msgid "Search"
+msgstr ""
+
+#: templates/widgets/search-form/post-types-filter.php:37
+msgctxt "post types filter"
+msgid "No post types found"
+msgstr ""
+
+#: templates/widgets/search-form/post-types-filter.php:50
+msgid "Save"
+msgstr ""
+
+#: templates/widgets/search-form/relations-filter.php:13, templates/widgets/search-form/ssr/relations-ssr.php:19
+msgctxt "relations filter"
+msgid "Unknown"
+msgstr ""
+
+#: templates/widgets/search-form/terms-filter.php:6, templates/widgets/search-form/terms-filter.php:63, templates/widgets/search-form/ssr/terms-ssr.php:12
+msgctxt "terms filter"
+msgid "Search categories"
+msgstr ""
+
+#: templates/widgets/search-form/terms-filter.php:34, templates/widgets/search-form/terms-filter.php:91
+msgctxt "terms filter"
+msgid "No results found"
+msgstr ""
+
+#: templates/widgets/search-form/terms-filter.php:130
+msgctxt "terms filter"
+msgid "All in"
+msgstr ""
+
+#: templates/widgets/search-form/user-filter.php:13, templates/widgets/search-form/ssr/user-ssr.php:15
+msgctxt "user filter"
+msgid "Unknown"
+msgstr ""
+
+#: templates/widgets/timeline/create-reply.php:5, templates/widgets/timeline/create-status.php:5
+msgctxt "timeline"
+msgid "Update"
+msgstr ""
+
+#: templates/widgets/timeline/create-reply.php:5
+msgctxt "timeline"
+msgid "Post comment"
+msgstr ""
+
+#: templates/widgets/timeline/create-reply.php:6, templates/widgets/timeline/create-status.php:6
+msgctxt "timeline"
+msgid "Cancel"
+msgstr ""
+
+#: templates/widgets/timeline/create-reply.php:15
+msgctxt "timeline"
+msgid "Post a comment"
+msgstr ""
+
+#: templates/widgets/timeline/create-reply.php:32
+msgctxt "timeline"
+msgid "Your comment"
+msgstr ""
+
+#: templates/widgets/timeline/create-status.php:5
+msgctxt "timeline"
+msgid "Publish"
+msgstr ""
+
+#: templates/widgets/timeline/create-status.php:30
+msgctxt "timeline"
+msgid "What's on your mind?"
+msgstr ""
+
+#: templates/widgets/timeline/create-status.php:86
+msgctxt "media library"
+msgid "Attach images"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:14, templates/widgets/timeline/single-status.php:33
+msgctxt "timeline"
+msgid "Posted an update"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:18, templates/widgets/timeline/single-status.php:38, templates/widgets/timeline/status-replies.php:30
+msgctxt "timeline"
+msgid "(edited)"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:28
+msgctxt "timeline"
+msgid "Reviewed"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:29
+msgctxt "timeline"
+msgid "Posted on"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:84
+msgctxt "timeline"
+msgid "Read less &#9652;"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:87
+msgctxt "timeline"
+msgid "Read more &#9662;"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:162
+msgctxt "timeline"
+msgid "Edit post"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:170
+msgctxt "timeline"
+msgid "Remove post"
+msgstr ""
+
+#: templates/widgets/timeline/single-status.php:192
+msgctxt "timeline"
+msgid "View all comments"
+msgstr ""
+
+#: templates/widgets/timeline/status-replies.php:15
+msgctxt "timeline"
+msgid "No replies on this post"
+msgstr ""
+
+#: templates/widgets/timeline/status-replies.php:87
+msgctxt "timeline"
+msgid "More"
+msgstr ""
+
+#: templates/widgets/timeline/status-replies.php:104
+msgctxt "timeline"
+msgid "Edit reply"
+msgstr ""
+
+#: templates/widgets/timeline/status-replies.php:112
+msgctxt "timeline"
+msgid "Remove reply"
+msgstr ""
+
+#: templates/widgets/timeline/status-replies.php:145
+msgctxt "timeline"
+msgid "Load more comments"
+msgstr ""
+
+#: templates/widgets/user-bar/notifications.php:5
+msgctxt "notifications"
+msgid "Clear all notifications?"
+msgstr ""
+
+#: templates/widgets/user-bar/notifications.php:106
+msgctxt "notifications"
+msgid "No notifications received"
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:78, app/controllers/frontend/auth/auth-controller.php:106, app/controllers/frontend/auth/auth-controller.php:141
+msgctxt "auth"
+msgid "Account not found."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:148, app/controllers/frontend/auth/auth-controller.php:200
+msgctxt "auth"
+msgid "Passwords do not match."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:185, app/controllers/frontend/auth/auth-controller.php:230, app/controllers/frontend/auth/auth-controller.php:282, app/controllers/frontend/auth/auth-controller.php:311
+msgctxt "auth"
+msgid "Something went wrong."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:192
+msgctxt "auth"
+msgid "Your current password is not correct."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:251, app/controllers/frontend/auth/auth-controller.php:238
+msgctxt "auth"
+msgid "Provided email address is not valid."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:289
+msgid "You will receive a link to download your personal data via email once the request is fulfilled."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:317
+msgctxt "auth"
+msgid "Your password is not correct."
+msgstr ""
+
+#: app/controllers/frontend/auth/auth-controller.php:321
+msgctxt "auth"
+msgid "You cannot delete your account as an administrator."
+msgstr ""
+
+#: app/controllers/frontend/auth/google-controller.php:20
+msgctxt "login with google"
+msgid "Invalid request."
+msgstr ""
+
+#: app/controllers/frontend/auth/google-controller.php:43
+msgctxt "login with google"
+msgid "Could not retrieve data."
+msgstr ""
+
+#: app/controllers/frontend/auth/google-controller.php:49
+msgctxt "login with google"
+msgid "Could not retrieve details."
+msgstr ""
+
+#: app/controllers/frontend/auth/google-controller.php:56
+msgctxt "login with google"
+msgid "Could not validate request."
+msgstr ""
+
+#: app/controllers/frontend/auth/registration-controller.php:30, app/controllers/frontend/membership/role-switch-controller.php:23, app/controllers/frontend/membership/role-switch-controller.php:27
+msgctxt "auth"
+msgid "Invalid request."
+msgstr ""
+
+#: app/controllers/frontend/auth/registration-controller.php:47
+msgctxt "auth"
+msgid "You must agree to terms and conditions to proceed."
+msgstr ""
+
+#: app/controllers/frontend/auth/registration-controller.php:125
+msgctxt "auth"
+msgid "Confirmation code sent to @email"
+msgstr ""
+
+#: app/controllers/frontend/create-post/post-relations-controller.php:19, app/controllers/frontend/create-post/post-relations-controller.php:42, app/controllers/frontend/create-post/post-relations-controller.php:54, app/controllers/frontend/create-post/submission-controller.php:21, app/controllers/frontend/create-post/submission-controller.php:25, app/controllers/frontend/create-post/submission-controller.php:40, app/controllers/frontend/create-post/submission-controller.php:56, app/controllers/frontend/create-post/submission-controller.php:61, app/controllers/frontend/create-post/submission-controller.php:311, app/controllers/frontend/create-post/submission-controller.php:317, app/controllers/frontend/create-post/submission-controller.php:321, app/controllers/frontend/create-post/submission-controller.php:330, app/controllers/frontend/membership/subscriptions-controller.php:93, app/controllers/frontend/membership/subscriptions-controller.php:127, app/controllers/frontend/membership/subscriptions-controller.php:160
+msgid "Invalid request"
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:35
+msgctxt "create post"
+msgid "Could not update profile."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:48, app/controllers/frontend/create-post/submission-controller.php:76
+msgctxt "create post"
+msgid "Edits not allowed."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:52, app/controllers/frontend/create-post/submission-controller.php:326
+msgid "Permission check failed."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:69
+msgctxt "create post"
+msgid "You do not have permission to create new posts."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:80
+msgctxt "create post"
+msgid "Submissions not allowed."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:255
+msgctxt "create post"
+msgid "Could not save post."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:287
+msgctxt "create post"
+msgid "Your post has been published."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:284
+msgctxt "create post"
+msgid "Your post has been submitted for review."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:282
+msgctxt "create post"
+msgid "Your post has been saved as draft."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:276
+msgctxt "create post"
+msgid "Your changes have been applied."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:274
+msgctxt "create post"
+msgid "Your changes have been submitted and will be applied once approved."
+msgstr ""
+
+#: app/controllers/frontend/create-post/submission-controller.php:272
+msgctxt "create post"
+msgid "Your changes have been submitted for review."
+msgstr ""
+
+#: app/controllers/frontend/membership/checkout-controller.php:34
+msgctxt "pricing plans"
+msgid "This plan is no longer available."
+msgstr ""
+
+#: app/controllers/frontend/membership/checkout-controller.php:62, app/controllers/frontend/membership/modify-plan-controller.php:449, app/controllers/frontend/membership/role-switch-controller.php:32
+msgctxt "roles"
+msgid "Switching roles is not allowed for Administrator and Editor accounts."
+msgstr ""
+
+#: app/controllers/frontend/membership/checkout-controller.php:74, app/controllers/frontend/membership/modify-plan-controller.php:242, app/controllers/frontend/membership/modify-plan-controller.php:200
+msgctxt "roles"
+msgid "This plan is not supported by your current role."
+msgstr ""
+
+#: app/controllers/frontend/membership/checkout-controller.php:148
+msgctxt "pricing plans"
+msgid "Price is not available."
+msgstr ""
+
+#: app/controllers/frontend/membership/checkout-controller.php:171
+msgctxt "pricing plans"
+msgid "You are already on this plan."
+msgstr ""
+
+#: app/controllers/frontend/membership/checkout-controller.php:347
+msgid "An error occurred."
+msgstr ""
+
+#: app/controllers/frontend/membership/modify-plan-controller.php:44, app/controllers/frontend/membership/modify-plan-controller.php:48, app/controllers/frontend/membership/modify-plan-controller.php:65, app/controllers/frontend/membership/modify-plan-controller.php:69
+msgctxt "pricing plans"
+msgid "Cannot modify current plan."
+msgstr ""
+
+#: app/controllers/frontend/membership/role-switch-controller.php:37, app/controllers/frontend/membership/role-switch-controller.php:103
+msgctxt "roles"
+msgid "You cannot switch to this role."
+msgstr ""
+
+#: app/controllers/frontend/membership/subscriptions-controller.php:108
+msgctxt "pricing plans"
+msgid "Invoice was paid successfully."
+msgstr ""
+
+#: app/controllers/frontend/membership/subscriptions-controller.php:171
+msgctxt "pricing plans"
+msgid "Subscription has been reactivated."
+msgstr ""
+
+#: app/controllers/frontend/orders/checkout-controller.php:109
+msgctxt "checkout"
+msgid "Redirecting to checkout..."
+msgstr ""
+
+#: app/controllers/frontend/orders/checkout-controller.php:116
+msgctxt "checkout"
+msgid "Something went wrong"
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:38, app/controllers/frontend/orders/order-actions-controller.php:74, app/controllers/frontend/orders/order-actions-controller.php:110, app/controllers/frontend/orders/order-actions-controller.php:152, app/controllers/frontend/orders/order-actions-controller.php:183, app/controllers/frontend/orders/order-actions-controller.php:221, app/controllers/frontend/orders/order-actions-controller.php:259, app/controllers/frontend/orders/order-actions-controller.php:290, app/controllers/frontend/orders/order-actions-controller.php:321, app/controllers/frontend/orders/order-actions-controller.php:362, app/controllers/frontend/orders/order-actions-controller.php:405, app/controllers/frontend/orders/order-actions-controller.php:447, app/controllers/frontend/orders/order-actions-controller.php:493, app/controllers/frontend/orders/order-actions-controller.php:542, app/controllers/frontend/orders/order-actions-controller.php:610, app/controllers/frontend/orders/order-actions-controller.php:639, app/controllers/frontend/orders/orders-controller.php:110, app/controllers/frontend/orders/orders-controller.php:174, app/controllers/frontend/orders/single-order-controller.php:20
+msgctxt "orders"
+msgid "Missing order id."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:48, app/controllers/frontend/orders/order-actions-controller.php:84, app/controllers/frontend/orders/order-actions-controller.php:120, app/controllers/frontend/orders/order-actions-controller.php:162, app/controllers/frontend/orders/order-actions-controller.php:193, app/controllers/frontend/orders/order-actions-controller.php:231, app/controllers/frontend/orders/order-actions-controller.php:269, app/controllers/frontend/orders/order-actions-controller.php:300, app/controllers/frontend/orders/order-actions-controller.php:329, app/controllers/frontend/orders/order-actions-controller.php:372, app/controllers/frontend/orders/order-actions-controller.php:416, app/controllers/frontend/orders/order-actions-controller.php:457, app/controllers/frontend/orders/order-actions-controller.php:503, app/controllers/frontend/orders/order-actions-controller.php:552, app/controllers/frontend/orders/order-actions-controller.php:615, app/controllers/frontend/orders/order-actions-controller.php:644, app/controllers/frontend/orders/orders-controller.php:119, app/controllers/frontend/orders/orders-controller.php:183, app/controllers/frontend/orders/orders-controller.php:257, app/controllers/frontend/orders/single-order-controller.php:29
+msgctxt "orders"
+msgid "Could not find order."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:237
+msgctxt "orders"
+msgid "Not allowed."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:334
+msgctxt "orders"
+msgid "Could not find vendor."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:379, app/controllers/frontend/orders/order-actions-controller.php:462
+msgctxt "orders"
+msgid "Request not valid."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:390
+msgctxt "orders"
+msgid "Subscription has been reactivated."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:432
+msgctxt "orders"
+msgid "Invoice was paid successfully."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:507, app/controllers/frontend/orders/order-actions-controller.php:556
+msgctxt "orders"
+msgid "You do not have permission to tag this order."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:515, app/controllers/frontend/orders/order-actions-controller.php:564
+msgctxt "orders"
+msgid "Tag not found."
+msgstr ""
+
+#: app/controllers/frontend/orders/order-actions-controller.php:605, app/controllers/frontend/orders/order-actions-controller.php:634
+msgctxt "orders"
+msgid "Permission denied."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:153
+msgctxt "orders"
+msgid "Comment cannot be empty."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:220
+msgctxt "orders"
+msgid "No files attached."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:242
+msgctxt "orders"
+msgid "Missing order/file id."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:273
+msgctxt "orders"
+msgid "Missing note id."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:283, app/controllers/frontend/orders/orders-controller.php:265
+msgctxt "orders"
+msgid "Could not find deliverable."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:291, app/controllers/frontend/orders/orders-controller.php:308
+msgctxt "orders"
+msgid "Could not find file."
+msgstr ""
+
+#: app/controllers/frontend/orders/orders-controller.php:302
+msgctxt "orders"
+msgid "You have reached the download limit for this file."
+msgstr ""
+
+#: app/controllers/frontend/orders/reservations-controller.php:188
+msgctxt "booking calendar"
+msgid "Multi day"
+msgstr ""
+
+#: app/controllers/frontend/orders/reservations-controller.php:195
+msgctxt "booking calendar"
+msgid "Day @current of @total"
+msgstr ""
+
+#: app/controllers/frontend/statistics/visits-chart-controller.php:216
+msgctxt "visits chart time format (yearly)"
+msgid "M"
+msgstr ""
+
+#: app/controllers/frontend/statistics/visits-chart-controller.php:210
+msgctxt "visits chart time format (monthly)"
+msgid "M jS"
+msgstr ""
+
+#: app/controllers/frontend/statistics/visits-chart-controller.php:204
+msgctxt "visits chart time format (weekly)"
+msgid "l"
+msgstr ""
+
+#: app/controllers/frontend/statistics/visits-chart-controller.php:198
+msgctxt "visits chart time format (daily)"
+msgid "H:00"
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:23, app/controllers/frontend/timeline/reply-controller.php:87
+msgctxt "timeline"
+msgid "You cannot reply to this post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:27
+msgctxt "timeline"
+msgid "You're commenting too often, try again later."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:37, app/controllers/frontend/timeline/reply-controller.php:101
+msgctxt "timeline"
+msgid "You cannot reply to this comment."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:94
+msgctxt "timeline"
+msgid "You cannot edit this comment."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:131
+msgctxt "timeline"
+msgid "You cannot delete this comment."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:161
+msgctxt "timeline"
+msgid "You cannot like this comment."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:191
+msgctxt "timeline"
+msgid "Comment cannot be empty."
+msgstr ""
+
+#: app/controllers/frontend/timeline/reply-controller.php:197
+msgctxt "timeline"
+msgid "Comment cannot be longer than %d characters."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:25, app/controllers/frontend/timeline/status-controller.php:190
+msgctxt "voxel"
+msgid "Something went wrong."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:30
+msgctxt "timeline"
+msgid "You're posting too often, try again later."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:43
+msgctxt "timeline"
+msgid "Could not find post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:47
+msgctxt "timeline"
+msgid "Could not publish to post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:161, app/controllers/frontend/timeline/status-controller.php:54
+msgctxt "timeline"
+msgid "You cannot post to this item's wall."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:168, app/controllers/frontend/timeline/status-controller.php:95, app/controllers/frontend/timeline/status-controller.php:61, app/controllers/frontend/timeline/status-controller.php:224
+msgctxt "timeline"
+msgid "Post cannot be empty."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:121
+msgctxt "timeline"
+msgid "You're not allowed to review this item."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:125
+msgctxt "timeline"
+msgid "You have already reviewed this item."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:130, app/controllers/frontend/timeline/status-controller.php:217
+msgctxt "timeline"
+msgid "Choose a rating."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:84
+msgctxt "timeline"
+msgid "You do not have permission to post as this page."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:88
+msgctxt "timeline"
+msgid "Timeline posts are not enabled for this post type."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:209
+msgctxt "timeline"
+msgid "You cannot edit this post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:263
+msgctxt "timeline"
+msgid "You cannot delete this post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:283
+msgctxt "timeline"
+msgid "You cannot like this post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:314
+msgctxt "timeline"
+msgid "Could not load comments."
+msgstr ""
+
+#: app/controllers/frontend/timeline/status-controller.php:361, app/controllers/frontend/timeline/status-controller.php:372
+msgctxt "reviews"
+msgid "You must choose a rating for @category_label"
+msgstr ""
+
+#: app/controllers/frontend/timeline/timeline-controller.php:58, app/controllers/frontend/timeline/timeline-controller.php:126, app/controllers/frontend/timeline/timeline-controller.php:162
+msgctxt "timeline"
+msgid "Could not load timeline."
+msgstr ""
+
+#: app/controllers/frontend/timeline/timeline-controller.php:89
+msgctxt "timeline"
+msgid "Could not retrieve timeline for user."
+msgstr ""
+
+#: app/controllers/frontend/timeline/timeline-controller.php:81
+msgctxt "timeline"
+msgid "Could not retrieve timeline for post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/timeline-controller.php:73
+msgctxt "timeline"
+msgid "Could not retrieve timeline items for post."
+msgstr ""
+
+#: app/controllers/frontend/timeline/timeline-controller.php:63
+msgctxt "timeline"
+msgid "Could not retrieve reviews for post."
+msgstr ""
+
+#: app/post-types/fields/post-relation-field/validate.php:15
+msgctxt "field validation"
+msgid "%s cannot have more than %d items."
+msgstr ""
+
+#: app/post-types/fields/singular/timezone-field.php:61
+msgctxt "timezones"
+msgid "site default"
+msgstr ""
+
+#: templates/widgets/login/recover/confirm-screen.php:13
+msgctxt "auth"
+msgid "Password recovery"
+msgstr ""
+
+#: templates/widgets/login/recover/confirm-screen.php:13
+msgctxt "auth"
+msgid "Please type the recovery code which was sent to your email"
+msgstr ""
+
+#: templates/widgets/login/recover/confirm-screen.php:28
+msgctxt "auth"
+msgid "Didn't receive anything?"
+msgstr ""
+
+#: templates/widgets/login/recover/confirm-screen.php:29
+msgctxt "auth"
+msgid "Send again"
+msgstr ""
+
+#: templates/widgets/login/recover/recover-screen.php:13
+msgctxt "auth"
+msgid "Your email"
+msgstr ""
+
+#: templates/widgets/login/recover/recover-screen.php:16
+msgctxt "auth"
+msgid "Your account email"
+msgstr ""
+
+#: templates/widgets/login/recover/recover-screen.php:23
+msgctxt "auth"
+msgid "Reset password"
+msgstr ""
+
+#: templates/widgets/login/recover/set-password-screen.php:13
+msgctxt "auth"
+msgid "Choose your new password"
+msgstr ""
+
+#: templates/widgets/login/recover/set-password-screen.php:13
+msgctxt "auth"
+msgid "Password must contain at least 8 characters and one number."
+msgstr ""
+
+#: templates/widgets/login/recover/set-password-screen.php:17, templates/widgets/login/security/update-password-screen.php:34
+msgctxt "auth"
+msgid "Your new password"
+msgstr ""
+
+#: templates/widgets/login/recover/set-password-screen.php:23, templates/widgets/login/security/update-password-screen.php:40
+msgctxt "auth"
+msgid "Confirm password"
+msgstr ""
+
+#: templates/widgets/login/recover/set-password-screen.php:29
+msgctxt "auth"
+msgid "Save changes"
+msgstr ""
+
+#: templates/widgets/login/security/delete-account-confirm-screen.php:8
+msgctxt "auth"
+msgid "This will irreversibly delete your account and all associated data. Are you sure you want to proceed?"
+msgstr ""
+
+#: templates/widgets/login/security/delete-account-confirm-screen.php:11
+msgctxt "auth"
+msgid "Yes, permanently delete my account"
+msgstr ""
+
+#: templates/widgets/login/security/delete-account-confirm-screen.php:17
+msgctxt "auth"
+msgid "Cancel account deletion"
+msgstr ""
+
+#: templates/widgets/login/security/delete-account-screen.php:9
+msgctxt "auth"
+msgid "Delete account & data"
+msgstr ""
+
+#: templates/widgets/login/security/delete-account-screen.php:14
+msgctxt "auth"
+msgid "Enter your password"
+msgstr ""
+
+#: templates/widgets/login/security/delete-account-screen.php:23, templates/widgets/login/security/privacy-screen.php:28
+msgctxt "auth"
+msgid "Delete my account"
+msgstr ""
+
+#: templates/widgets/login/security/privacy-screen.php:9, templates/widgets/login/security/security-screen.php:27
+msgctxt "auth"
+msgid "Privacy"
+msgstr ""
+
+#: templates/widgets/login/security/privacy-screen.php:12
+msgctxt "auth"
+msgid "Download personal data"
+msgstr ""
+
+#: templates/widgets/login/security/privacy-screen.php:12
+msgctxt "auth"
+msgid "Request a copy of all your personal data stored on this site."
+msgstr ""
+
+#: templates/widgets/login/security/privacy-screen.php:20
+msgctxt "auth"
+msgid "Request download"
+msgstr ""
+
+#: templates/widgets/login/security/privacy-screen.php:24
+msgctxt "auth"
+msgid "Delete account"
+msgstr ""
+
+#: templates/widgets/login/security/privacy-screen.php:24
+msgctxt "auth"
+msgid "Delete your account and all associated data."
+msgstr ""
+
+#: templates/widgets/login/security/security-screen.php:9
+msgctxt "auth"
+msgid "Settings"
+msgstr ""
+
+#: templates/widgets/login/security/security-screen.php:21, templates/widgets/login/security/update-password-screen.php:47
+msgctxt "auth"
+msgid "Update password"
+msgstr ""
+
+#: templates/widgets/login/security/security-screen.php:33
+msgctxt "auth"
+msgid "Logout"
+msgstr ""
+
+#: templates/widgets/login/security/update-email-screen.php:14
+msgctxt "auth"
+msgid "Your email address has been updated."
+msgstr ""
+
+#: templates/widgets/login/security/update-email-screen.php:21
+msgctxt "auth"
+msgid "Your current email address"
+msgstr ""
+
+#: templates/widgets/login/security/update-email-screen.php:30
+msgctxt "auth"
+msgid "Enter new email address"
+msgstr ""
+
+#: templates/widgets/login/security/update-email-screen.php:33
+msgctxt "auth"
+msgid "Enter email address"
+msgstr ""
+
+#: templates/widgets/login/security/update-email-screen.php:39
+msgctxt "auth"
+msgid "Please type the confirmation code which sent to your new email"
+msgstr ""
+
+#: templates/widgets/login/security/update-email-screen.php:52
+msgctxt "auth"
+msgid "Send confirmation code"
+msgstr ""
+
+#: templates/widgets/login/security/update-password-screen.php:14
+msgctxt "auth"
+msgid "Your password has been updated."
+msgstr ""
+
+#: templates/widgets/login/security/update-password-screen.php:22
+msgctxt "auth"
+msgid "Enter your current password"
+msgstr ""
+
+#: templates/widgets/login/security/update-password-screen.php:25
+msgctxt "auth"
+msgid "Current password"
+msgstr ""
+
+#: templates/widgets/login/security/update-password-screen.php:30
+msgctxt "auth"
+msgid "Choose new password"
+msgstr ""
+
+#: templates/widgets/login/security/update-password-screen.php:30
+msgctxt "auth"
+msgid "Password must contain at least 8 characters."
+msgstr ""
+
+#: templates/widgets/search-form/location-filter/proximity.php:3, templates/widgets/search-form/location-filter/proximity.php:47, templates/widgets/search-form/ssr/location-ssr.php:36
+msgctxt "location filter"
+msgid "Enable proximity search"
+msgstr ""
+
+#: templates/widgets/search-form/location-filter/proximity.php:14, templates/widgets/search-form/location-filter/proximity.php:58, templates/widgets/search-form/ssr/location-ssr.php:76, templates/widgets/search-form/ssr/location-ssr.php:49
+msgctxt "location filter"
+msgid "mi"
+msgstr ""
+
+#: templates/widgets/search-form/location-filter/proximity.php:15, templates/widgets/search-form/location-filter/proximity.php:59, templates/widgets/search-form/ssr/location-ssr.php:76, templates/widgets/search-form/ssr/location-ssr.php:49
+msgctxt "location filter"
+msgid "km"
+msgstr ""
+
+#: templates/widgets/search-form/location-filter/proximity.php:35, templates/widgets/search-form/location-filter/proximity.php:40, templates/widgets/search-form/ssr/location-ssr.php:71, templates/widgets/search-form/ssr/location-ssr.php:77, templates/widgets/search-form/ssr/location-ssr.php:50
+msgctxt "location filter"
+msgid "Distance"
+msgstr ""
